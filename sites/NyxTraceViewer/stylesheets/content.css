@@ -1,0 +1,50 @@
+/* line 1, ../sass/content.scss */
+.content-outer {
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 11, ../sass/content.scss */
+.content-inner {
+  overflow: hidden;
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+/* line 21, ../sass/content.scss */
+.content {
+  position: relative;
+  margin-top: 8em;
+  width: 100%;
+  height: auto;
+  margin-bottom: 3em;
+}
+/* line 29, ../sass/content.scss */
+.content .brief-description {
+  color: #555555;
+  margin-bottom: 1em;
+  font: 16px Arial;
+  font-weight: bold;
+}
+/* line 37, ../sass/content.scss */
+.content .context {
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  width: 75%;
+  font: 12pt "Times New Roman";
+  line-height: 1.5em;
+}
+/* line 46, ../sass/content.scss */
+.content .context .context-header {
+  font: 16px Arial;
+  font-weight: bold;
+}

@@ -1,0 +1,34 @@
+.with-without-comparison {
+
+  margin-top: 2em;
+  background: #EEEEEE;
+  width: auto;
+  height: 250px;
+  margin-right: 4em;
+  vertical-align: middle;
+
+  %img-overview {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-height: 230px;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+  }
+
+  .img-overview-1 {
+    @extend %img-overview;
+  }
+
+  .img-overview-2 {
+    @extend %img-overview;
+    margin-left: 200px;
+    display: none;
+  }
+}
+

@@ -1,0 +1,27 @@
+/* line 1, ../sass/overview.scss */
+.with-without-comparison {
+  margin-top: 2em;
+  background: #EEEEEE;
+  width: auto;
+  height: 250px;
+  margin-right: 4em;
+  vertical-align: middle;
+}
+/* line 10, ../sass/overview.scss */
+.with-without-comparison .img-overview-1, .with-without-comparison .img-overview-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-height: 230px;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+}
+/* line 28, ../sass/overview.scss */
+.with-without-comparison .img-overview-2 {
+  margin-left: 200px;
+  display: none;
+}
