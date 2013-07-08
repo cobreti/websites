@@ -1,27 +1,49 @@
 /* line 1, ../sass/overview.scss */
 .with-without-comparison {
+  display: table;
+  position: relative;
   margin-top: 2em;
-  background: #EEEEEE;
-  width: auto;
-  height: 250px;
   margin-right: 4em;
   vertical-align: middle;
 }
 /* line 10, ../sass/overview.scss */
-.with-without-comparison .img-overview-1, .with-without-comparison .img-overview-2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-left: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  max-height: 230px;
-  width: auto;
-  height: auto;
+.with-without-comparison .overview-img {
+  display: table-cell;
+  position: relative;
+  width: 45%;
+  max-width: 500px;
+  padding-right: 5em;
+}
+/* line 19, ../sass/overview.scss */
+.with-without-comparison .overview-description {
+  position: relative;
+  display: table-cell;
   vertical-align: middle;
 }
-/* line 28, ../sass/overview.scss */
+/* line 25, ../sass/overview.scss */
+.with-without-comparison .overview-text {
+  position: relative;
+  vertical-align: middle;
+}
+/* line 30, ../sass/overview.scss */
+.with-without-comparison .img-overview-1, .with-without-comparison .img-overview-2 {
+  position: relative;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 500px;
+  height: auto;
+}
+/* line 44, ../sass/overview.scss */
 .with-without-comparison .img-overview-2 {
-  margin-left: 200px;
+  padding-left: 200px;
   display: none;
+}
+
+/* line 51, ../sass/overview.scss */
+.with-without-comparison:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
 }

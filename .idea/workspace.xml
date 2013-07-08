@@ -12,8 +12,8 @@
     <file path="/content.scss" changelist="4cd88137-dbec-4fc9-b62e-43fe2a0489d6" time="1373222410826" ignored="false" />
     <file path="/footer.scss" changelist="4cd88137-dbec-4fc9-b62e-43fe2a0489d6" time="1373221824483" ignored="false" />
     <file path="/NyxTraceViewer.js" changelist="4cd88137-dbec-4fc9-b62e-43fe2a0489d6" time="1373236233563" ignored="false" />
-    <file path="/overview.html" changelist="4cd88137-dbec-4fc9-b62e-43fe2a0489d6" time="1373238632995" ignored="false" />
-    <file path="/overview.scss" changelist="4cd88137-dbec-4fc9-b62e-43fe2a0489d6" time="1373238571125" ignored="false" />
+    <file path="/overview.html" changelist="4cd88137-dbec-4fc9-b62e-43fe2a0489d6" time="1373246615041" ignored="false" />
+    <file path="/overview.scss" changelist="4cd88137-dbec-4fc9-b62e-43fe2a0489d6" time="1373247882172" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,19 +60,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="overview.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="overview.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/NyxTraceViewer/pages/overview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="12" selection-start="276" selection-end="276" vertical-scroll-proportion="0.1764706">
+            <state line="3" column="49" selection-start="148" selection-end="148" vertical-scroll-proportion="-1.826087">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="overview.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="overview.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/NyxTraceViewer/sass/overview.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+            <state line="26" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.018036073">
               <folding />
             </state>
           </provider>
@@ -142,8 +142,8 @@
         <option value="$PROJECT_DIR$/sites/NyxTraceViewer/scripts/NyxTraceViewer.js" />
         <option value="$PROJECT_DIR$/sites/NyxTraceViewer/sass/header.scss" />
         <option value="$PROJECT_DIR$/sites/NyxTraceViewer/home.html" />
-        <option value="$PROJECT_DIR$/sites/NyxTraceViewer/sass/overview.scss" />
         <option value="$PROJECT_DIR$/sites/NyxTraceViewer/pages/overview.html" />
+        <option value="$PROJECT_DIR$/sites/NyxTraceViewer/sass/overview.scss" />
       </list>
     </option>
   </component>
@@ -517,16 +517,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/NyxTraceViewer/sass/overview.scss">
+    <entry file="file://$PROJECT_DIR$/sites/NyxTraceViewer/pages/overview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+        <state line="3" column="49" selection-start="148" selection-end="148" vertical-scroll-proportion="-1.826087">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/NyxTraceViewer/pages/overview.html">
+    <entry file="file://$PROJECT_DIR$/sites/NyxTraceViewer/sass/overview.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="276" selection-end="276" vertical-scroll-proportion="0.1764706">
+        <state line="26" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.018036073">
           <folding />
         </state>
       </provider>

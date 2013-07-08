@@ -1,24 +1,40 @@
 .with-without-comparison {
 
+  display: table;
+  position: relative;
   margin-top: 2em;
-  background: #EEEEEE;
-  width: auto;
-  height: 250px;
+  //background: #EEEEEE;
   margin-right: 4em;
   vertical-align: middle;
 
+  .overview-img {
+
+    display: table-cell;
+    position: relative;
+    width: 45%;
+    max-width: 500px;
+    padding-right: 5em;
+  }
+
+  .overview-description {
+    position: relative;
+    display: table-cell;
+    vertical-align:middle;
+  }
+
+  .overview-text {
+    position: relative;
+    vertical-align: middle;
+  }
+
   %img-overview {
 
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    max-height: 230px;
-    width: auto;
+    position: relative;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 500px;
     height: auto;
-    vertical-align: middle;
   }
 
   .img-overview-1 {
@@ -27,8 +43,14 @@
 
   .img-overview-2 {
     @extend %img-overview;
-    margin-left: 200px;
+    padding-left: 200px;
     display: none;
   }
 }
 
+.with-without-comparison:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
