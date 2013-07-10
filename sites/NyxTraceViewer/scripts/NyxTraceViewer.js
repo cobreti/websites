@@ -68,8 +68,8 @@ $(document).ready( function() {
     });
 
 
-    LoadContentPage('about.html');
-    SelectMenuItem('about.html');
+    LoadContentPage('overview.html');
+    SelectMenuItem('overview.html');
 });
 
 

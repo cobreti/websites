@@ -1,5 +1,5 @@
 /* line 1, ../sass/overview.scss */
-.with-without-comparison {
+.feature-section {
   display: table;
   position: relative;
   margin-top: 2em;
@@ -7,43 +7,35 @@
   vertical-align: middle;
 }
 /* line 10, ../sass/overview.scss */
-.with-without-comparison .overview-img {
+.feature-section .feature-img-cell {
   display: table-cell;
   position: relative;
-  width: 45%;
-  max-width: 500px;
+  width: 50%;
   padding-right: 5em;
 }
-/* line 19, ../sass/overview.scss */
-.with-without-comparison .overview-description {
-  position: relative;
-  display: table-cell;
-  vertical-align: middle;
-}
-/* line 25, ../sass/overview.scss */
-.with-without-comparison .overview-text {
-  position: relative;
-  vertical-align: middle;
-}
-/* line 30, ../sass/overview.scss */
-.with-without-comparison .img-overview-1, .with-without-comparison .img-overview-2 {
+/* line 20, ../sass/overview.scss */
+.feature-section .feature-img-cell .feature-img {
   position: relative;
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
-  max-width: 500px;
+  max-width: 450px;
+  width: 100%;
   height: auto;
 }
-/* line 44, ../sass/overview.scss */
-.with-without-comparison .img-overview-2 {
-  padding-left: 200px;
-  display: none;
+/* line 33, ../sass/overview.scss */
+.feature-section .feature-description-cell {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
 }
-
-/* line 51, ../sass/overview.scss */
-.with-without-comparison:after {
-  content: " ";
-  display: block;
-  height: 0;
-  clear: both;
+/* line 38, ../sass/overview.scss */
+.feature-section .feature-description-cell .feature-description {
+  position: relative;
+  vertical-align: middle;
+}
+/* line 44, ../sass/overview.scss */
+.feature-section .feature-description-cell .feature-description ul li {
+  list-style: none;
+  margin-bottom: 1em;
 }

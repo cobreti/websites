@@ -15,17 +15,17 @@
   overflow-y: auto;
   height: 100%;
   width: 100%;
-  margin-left: 2em;
-  margin-right: 2em;
 }
 
-/* line 21, ../sass/content.scss */
+/* line 19, ../sass/content.scss */
 .content {
   position: relative;
   margin-top: 8em;
   width: 100%;
   height: auto;
   margin-bottom: 3em;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 /* line 29, ../sass/content.scss */
 .content .brief-description {
