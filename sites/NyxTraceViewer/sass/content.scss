@@ -1,4 +1,5 @@
 .content-outer {
+  box-sizing: content-box;
   height: 100%;
   position: absolute;
   overflow: hidden;
@@ -12,12 +13,14 @@
 
   overflow: hidden;
   overflow-y: auto;
+  box-sizing: content-box;
   height: 100%;
   width: 100%;
 }
 
 .content {
 
+  box-sizing: content-box;
   position: relative;
   margin-top: 8em;
   width: 100%;
@@ -25,6 +28,7 @@
   margin-bottom: 3em;
   margin-left: 2em;
   margin-right: 2em;
+  padding-bottom: 3em;
 
   .brief-description {
 
