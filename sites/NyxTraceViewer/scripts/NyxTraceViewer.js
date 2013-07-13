@@ -2,6 +2,9 @@
 
     window.LoadContentPage = function LoadContentPage(page) {
 
+        var innerContent = $(document).find('.content-inner');
+        innerContent.empty();
+
         try {
 
             var req = new XMLHttpRequest();
@@ -9,8 +12,6 @@
             req.onload = function() {
 
                 var content = $(req.responseText);
-                var innerContent = $(document).find('.content-inner');
-                innerContent.empty();
                 innerContent.append(content);
             }
 
