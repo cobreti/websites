@@ -4,7 +4,7 @@
     <list default="true" id="4cd88137-dbec-4fc9-b62e-43fe2a0489d6" name="Default" comment="" />
     <ignored path="websites.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/home.html" changelist="4cd88137-dbec-4fc9-b62e-43fe2a0489d6" time="1373737654744" ignored="false" />
+    <file path="/home.html" changelist="4cd88137-dbec-4fc9-b62e-43fe2a0489d6" time="1373752840469" ignored="false" />
     <file path="/server.js" changelist="4cd88137-dbec-4fc9-b62e-43fe2a0489d6" time="1373218095172" ignored="false" />
     <file path="/config.rb" changelist="4cd88137-dbec-4fc9-b62e-43fe2a0489d6" time="1373218366308" ignored="false" />
     <file path="/header.scss" changelist="4cd88137-dbec-4fc9-b62e-43fe2a0489d6" time="1373674300771" ignored="false" />
@@ -23,6 +23,8 @@
     <file path="$PROJECT_DIR$/sites/InterviewManager/stylesheets/overview.css" changelist="4cd88137-dbec-4fc9-b62e-43fe2a0489d6" time="1373734413210" ignored="false" />
     <file path="/InterviewManager.js" changelist="4cd88137-dbec-4fc9-b62e-43fe2a0489d6" time="1373728550780" ignored="false" />
     <file path="/overviewPage.js" changelist="4cd88137-dbec-4fc9-b62e-43fe2a0489d6" time="1373734625557" ignored="false" />
+    <file path="/download.html" changelist="4cd88137-dbec-4fc9-b62e-43fe2a0489d6" time="1373753087592" ignored="false" />
+    <file path="/download.scss" changelist="4cd88137-dbec-4fc9-b62e-43fe2a0489d6" time="1373753176450" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,25 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/InterviewManager/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="1187" selection-end="1187" vertical-scroll-proportion="-21.304348">
+            <state line="36" column="0" selection-start="1258" selection-end="1258" vertical-scroll-proportion="-21.913044">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="download.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/InterviewManager/pages/download.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="903" selection-end="903" vertical-scroll-proportion="-14.608696">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="download.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/InterviewManager/sass/download.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="21" selection-start="243" selection-end="243" vertical-scroll-proportion="0.34190232">
               <folding />
             </state>
           </provider>
@@ -72,16 +92,16 @@
       <file leaf-file-name="technologies.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/InterviewManager/pages/technologies.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1272" selection-end="1272" vertical-scroll-proportion="-24.956522">
+            <state line="0" column="0" selection-start="0" selection-end="21" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="technologies.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="technologies.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/InterviewManager/sass/technologies.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="23" selection-start="169" selection-end="169" vertical-scroll-proportion="0.1618497">
+            <state line="10" column="23" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,15 +134,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="overviewPage.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/InterviewManager/scripts/overviewPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="27" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -133,8 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sites/NyxTraceViewer/pages/overview.html" />
-        <option value="$PROJECT_DIR$/sites/NyxTraceViewer/home.html" />
         <option value="$PROJECT_DIR$/sites/NyxTraceViewer/pages/technologies.html" />
         <option value="$PROJECT_DIR$/sites/NyxTraceViewer/sass/technologies.scss" />
         <option value="$PROJECT_DIR$/sites/portefolio/scripts/portefolio.js" />
@@ -146,17 +155,19 @@
         <option value="$PROJECT_DIR$/sites/InterviewManager/scripts/overviewPage.js" />
         <option value="$PROJECT_DIR$/sites/InterviewManager/scripts/InterviewManager.js" />
         <option value="$PROJECT_DIR$/sites/NyxTraceViewer/scripts/NyxTraceViewer.js" />
-        <option value="$PROJECT_DIR$/sites/InterviewManager/home.html" />
         <option value="$PROJECT_DIR$/sites/InterviewManager/pages/technologies.html" />
         <option value="$PROJECT_DIR$/sites/InterviewManager/sass/technologies.scss" />
+        <option value="$PROJECT_DIR$/sites/InterviewManager/home.html" />
+        <option value="$PROJECT_DIR$/sites/InterviewManager/pages/download.html" />
+        <option value="$PROJECT_DIR$/sites/InterviewManager/sass/download.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1054" />
-    <option name="y" value="260" />
-    <option name="width" value="1435" />
-    <option name="height" value="1036" />
+    <option name="x" value="893" />
+    <option name="y" value="319" />
+    <option name="width" value="1260" />
+    <option name="height" value="949" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -214,68 +225,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="websites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="websites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NyxTraceViewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="websites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="websites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NyxTraceViewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="websites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="websites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NyxTraceViewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -425,13 +374,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1054" y="260" width="1435" height="1036" extended-state="0" />
+    <frame x="893" y="319" width="1260" height="949" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6004367" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28536782" sideWeight="0.6004367" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995633" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -509,20 +458,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/NyxTraceViewer/sass/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="12" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/NyxTraceViewer/sass/overview.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="0" selection-end="836" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/portefolio/sass/content.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="23" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0">
@@ -595,13 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/InterviewManager/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1187" selection-end="1187" vertical-scroll-proportion="-21.304348">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/NyxTraceViewer/scripts/NyxTraceViewer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="8" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
@@ -609,16 +537,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/InterviewManager/pages/technologies.html">
+    <entry file="file://$PROJECT_DIR$/sites/InterviewManager/sass/technologies.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1272" selection-end="1272" vertical-scroll-proportion="-24.956522">
+        <state line="10" column="23" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/InterviewManager/sass/technologies.scss">
+    <entry file="file://$PROJECT_DIR$/sites/InterviewManager/pages/technologies.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="169" selection-end="169" vertical-scroll-proportion="0.1618497">
+        <state line="0" column="0" selection-start="0" selection-end="21" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/InterviewManager/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1258" selection-end="1258" vertical-scroll-proportion="-21.913044">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/InterviewManager/pages/download.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="903" selection-end="903" vertical-scroll-proportion="-14.608696">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/InterviewManager/sass/download.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="21" selection-start="243" selection-end="243" vertical-scroll-proportion="0.34190232">
           <folding />
         </state>
       </provider>
