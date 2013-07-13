@@ -1,0 +1,93 @@
+.overview-desc {
+  position: relative;
+  text-align: center;
+  font: 20px Arial;
+  font-weight: bold;
+  line-height: 3em;
+  margin-bottom: 3em;
+}
+
+%title {
+
+  font: 16px Arial;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+
+%description {
+
+  margin-right: 5em;
+  margin-left: 2em;
+}
+
+.problematic {
+
+  margin-bottom: 4em;
+
+  .problematic-desc-title {
+    @extend %title;
+  }
+
+  .problematic-desc {
+
+    @extend %description;
+  }
+}
+
+.requirements {
+
+  margin-bottom: 4em;
+
+  .requirements-desc-title {
+    @extend %title;
+  }
+
+  .requirements-desc {
+    @extend %description;
+
+    ul {
+      li {
+        line-height: 2em;
+      }
+    }
+  }
+}
+
+
+.data-description {
+
+  margin-bottom: 4em;
+
+  .data-description-title {
+    @extend %title;
+  }
+
+  .data-description-text {
+    @extend %description;
+  }
+}
+
+
+.solution {
+  .solution-title {
+    @extend %title;
+    font: 18px Arial;
+    font-weight: bolder;
+    margin-left: 10em;
+    margin-bottom: 2em;
+  }
+
+  .solution-item {
+
+    margin-bottom: 2em;
+
+    .solution-item-title {
+      @extend %title;
+    }
+
+    .solution-item-text {
+      margin-right: 4em;
+      margin-left: 2em;
+    }
+  }
+}

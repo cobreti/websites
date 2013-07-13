@@ -1,0 +1,58 @@
+/* line 1, ../sass/overview.scss */
+.overview-desc {
+  position: relative;
+  text-align: center;
+  font: 20px Arial;
+  font-weight: bold;
+  line-height: 3em;
+  margin-bottom: 3em;
+}
+
+/* line 10, ../sass/overview.scss */
+.problematic .problematic-desc-title, .requirements .requirements-desc-title, .data-description .data-description-title, .solution .solution-title, .solution .solution-item .solution-item-title {
+  font: 16px Arial;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+
+/* line 17, ../sass/overview.scss */
+.problematic .problematic-desc, .requirements .requirements-desc, .data-description .data-description-text {
+  margin-right: 5em;
+  margin-left: 2em;
+}
+
+/* line 23, ../sass/overview.scss */
+.problematic {
+  margin-bottom: 4em;
+}
+
+/* line 37, ../sass/overview.scss */
+.requirements {
+  margin-bottom: 4em;
+}
+/* line 49, ../sass/overview.scss */
+.requirements .requirements-desc ul li {
+  line-height: 2em;
+}
+
+/* line 57, ../sass/overview.scss */
+.data-description {
+  margin-bottom: 4em;
+}
+
+/* line 72, ../sass/overview.scss */
+.solution .solution-title {
+  font: 18px Arial;
+  font-weight: bolder;
+  margin-left: 10em;
+  margin-bottom: 2em;
+}
+/* line 80, ../sass/overview.scss */
+.solution .solution-item {
+  margin-bottom: 2em;
+}
+/* line 88, ../sass/overview.scss */
+.solution .solution-item .solution-item-text {
+  margin-right: 4em;
+  margin-left: 2em;
+}

@@ -1,0 +1,85 @@
+<div class='content'>
+
+    <div class='overview-desc'>
+        This is a project made in a Client-Server class for my master degree.
+    </div>
+
+    <div class='problematic'>
+        <div class='problematic-desc-title'>
+            Problematic
+        </div>
+        <div class='problematic-desc'>
+            <p>
+                The goal of the project was to allow many people to remotely add and modify comments and annotation to paragraphs of a same document at the same time.
+            </p>
+        </div>
+    </div>
+
+    <div class='requirements'>
+        <div class='requirements-desc-title'>
+            Requirements
+        </div>
+        <div class='requirements-desc'>
+            <ul>
+                <li>To use at least two different languages: one for the client and a different one for the server</li>
+                <li>must support user access permissions</li>
+                <li>must allow users to work concurrently on the same document without conflict</li>
+                <li>done in group of 5 or 6 people</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class='data-description'>
+        <div class='data-description-title'>
+            Data description
+        </div>
+        <div class='data-description-text'>
+            <p>
+                The data consisted of many documents divided in paragraphs. Each paragraph could be assigned one or more annotation by different people, and each annotation could also be commented by different people.<br><br>
+                Each user could create a document, assign or remove annotation to any document and also add or remove comment on annotations.
+            </p>
+        </div>
+    </div>
+
+    <div class='solution'>
+        <div class='solution-title'>
+            The solution we chose contained the following elements
+        </div>
+
+        <div class='solution-item'>
+            <div class='solution-item-title'>Document imported from a text file</div>
+            <div class='solution-item-text'>
+                <p>
+                    This decision removed the complexity of allowing document edition and managing concurrent access when editing it. Once the document is imported, it's being divided in section (paragraphs) and sent to the server.<br><br>
+                </p>
+            </div>
+        </div>
+
+        <div class='solution-item'>
+            <div class='solution-item-title'>Lock to edit</div>
+            <div class='solution-item-text'>
+                <p>
+                    The goal was to allow simplicity and avoid one losing work because two
+                    people were working on the same part without knowing it. The simpliest way to achieve
+                    this was to force people to lock the area they are working on before being
+                    able to editing, and unlock when done. The unlock process work like a save my changes process.<br><br>
+                    We also went into the work of creating a fine granularity for the locking mechanism. It wouldn't have been
+                    good to have to lock an entire document so we put locks on small parts of a document : paragraph, annotations and comments.
+                </p>
+            </div>
+        </div>
+
+        <div class='solution-item'>
+            <div class='solution-item-title'>Ease of use</div>
+            <div class='solution-item-text'>
+                <p>
+                    We didn't want an application were the user had to hit a refresh
+                    button or wait for several seconds or minutes to have something happening or simply know if something was happening.<br><br>
+                    For this, we implemented a background update mechanism that refresh parts of items or
+                    sections progressivily. For example, when consulting a document, the application doesn't
+                    wait for the whole document to be available before displaying it. Paragraphs are display and available for edition as they get through.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
