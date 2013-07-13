@@ -69,6 +69,9 @@
 
 
 .solution {
+
+  margin-bottom: 4em;
+
   .solution-title {
     @extend %title;
     font: 18px Arial;
@@ -88,6 +91,109 @@
     .solution-item-text {
       margin-right: 4em;
       margin-left: 2em;
+    }
+  }
+}
+
+
+.screenshots {
+
+  margin-bottom: 4em;
+
+  .screenshots-title {
+
+    @extend %title;
+    font: 18px Arial;
+    font-weight: bolder;
+    margin-left: 10em;
+    margin-bottom: 0em;
+  }
+
+  .screenshots-content {
+
+    margin-left: 4em;
+    padding-left: 0px;
+    width: 750px;
+    height: 450px;
+    border: 1px double #000;
+
+    ul {
+      padding-left: 0;
+      padding-top: 0;
+      margin-left: 0;
+      margin-top: 0;
+
+      li {
+        list-style: none;
+        margin-top: 0px;
+        padding-left: 0px;
+
+        figure {
+          margin-left: 0;
+          margin-top: 0;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          width: 750px;
+          height: 450px;
+          background-position: center center;
+          background-size: contain;
+
+          -webkit-margin-before: 0;
+          -webkit-margin-after: 0;
+          -webkit-margin-begin: 0;
+          -webkit-margin-end: 0;
+        }
+      }
+    }
+
+    #Login-img {
+      background-image: url('../images/screenshots/Login.png');
+    }
+
+    #MainPage-img {
+      background-image: url('../images/screenshots/MainPage.png');
+      display:none;
+    }
+
+    #Import-img {
+      background-image: url('../images/screenshots/Import.png');
+      display:none;
+    }
+
+    #ParagraphView-1-img {
+      background-image: url('../images/screenshots/ParagraphsView.png');
+      display:none;
+    }
+
+    #ParagraphView-2-img {
+      background-image: url('../images/screenshots/ParagraphsView-2.png');
+      display:none;
+    }
+
+    #AnnotationView-img {
+      background-image: url('../images/screenshots/AnnotationsView.png');
+      display:none;
+    }
+
+    #AnnotationEdition-img {
+      background-image: url('../images/screenshots/AnnotationEdition.png');
+      display:none;
+    }
+
+    #UserManagement-img {
+      background-image: url('../images/screenshots/UsersManagement.png');
+      display:none;
+    }
+
+    .images-nav {
+      position: absolute;
+      height: 1em;
+      //bottom: 3em;
+      text-align: center;
+      width: 750px;
+      margin-bottom: 1em;
+      //z-index: 1;
     }
   }
 }
