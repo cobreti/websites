@@ -1,6 +1,7 @@
 ( function() {
 
-    if (typeof initOverviewPage !== 'undefined' ) {
+    if (typeof initOverviewPage === 'function' ) {
+        initOverviewPage();
         return;
     }
 
@@ -22,7 +23,9 @@
 
         nav.show();
         nav.css('left', screenshotsContent.offset().left + 'px');
-        nav.css('top', screenshotsContent.innerHeight() + screenshotsContent.position().top - nav.outerHeight(true) + 'px' );
+        nav.css('top', screenshotsContent.innerHeight() + screenshotsContent.position().top + 'px' );
+
+        $(":input[type='radio'][data-img='Login']").attr('checked', 'true');
 
         $("figure").each( function() {
 
