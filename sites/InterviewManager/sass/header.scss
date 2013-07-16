@@ -58,6 +58,15 @@ header {
       }
     }
 
+    > li:last-child {
+
+      float: right;
+
+      >a {
+        color: #EEEEf8;
+      }
+    }
+
     > li:hover {
       color: #ccccff;
     }

@@ -54,7 +54,16 @@ header {
       cursor: pointer;
 
       &.active {
-        background-color: ea932f;
+        background-color: #ea932f;
+      }
+    }
+
+    > li:last-child {
+
+      float: right;
+
+      >a {
+        color: #EEEEf8;
       }
     }
 

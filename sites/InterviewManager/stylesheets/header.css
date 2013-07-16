@@ -61,6 +61,14 @@ header {
   background-color: #ea932f;
 }
 /* line 61, ../sass/header.scss */
+.menu-nav > ul > li:last-child {
+  float: right;
+}
+/* line 65, ../sass/header.scss */
+.menu-nav > ul > li:last-child > a {
+  color: #EEEEf8;
+}
+/* line 70, ../sass/header.scss */
 .menu-nav > ul > li:hover {
   color: #ccccff;
 }
