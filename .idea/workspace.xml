@@ -43,7 +43,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/portefolio/home.html">
+        <entry file="file://$PROJECT_DIR$/sites/PorteFolio/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="66" column="34" selection-start="3099" selection-end="3099" vertical-scroll-proportion="-21.695652">
               <folding />
@@ -78,17 +78,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/InterviewManager/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="7" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.62982005">
+            <state line="37" column="0" selection-start="1341" selection-end="1341" vertical-scroll-proportion="-22.52174">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.6255319">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="header.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/portefolio/stylesheets/header.css">
+        <entry file="file://$PROJECT_DIR$/sites/PorteFolio/stylesheets/header.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -106,7 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sites/InterviewManager/scripts/overviewPage.js" />
         <option value="$PROJECT_DIR$/sites/InterviewManager/scripts/InterviewManager.js" />
         <option value="$PROJECT_DIR$/sites/NyxTraceViewer/scripts/NyxTraceViewer.js" />
         <option value="$PROJECT_DIR$/sites/InterviewManager/pages/technologies.html" />
@@ -122,12 +130,13 @@
         <option value="$PROJECT_DIR$/sites/InterviewManager/sass/header.scss" />
         <option value="$PROJECT_DIR$/sites/portefolio/home.html" />
         <option value="$PROJECT_DIR$/sites/InterviewManager/home.html" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="649" />
-    <option name="y" value="375" />
+    <option name="x" value="547" />
+    <option name="y" value="398" />
     <option name="width" value="1260" />
     <option name="height" value="949" />
   </component>
@@ -186,46 +195,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="websites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="websites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NyxTraceViewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="websites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="websites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NyxTraceViewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,14 +302,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="649" y="375" width="1260" height="949" extended-state="0" />
+    <frame x="547" y="398" width="1260" height="949" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28536782" sideWeight="0.67068756" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995633" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28536782" sideWeight="0.60072374" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39927623" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -457,21 +426,14 @@
         <state line="34" column="116" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.62222224" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/portefolio/sass/header.scss">
+    <entry file="file://$PROJECT_DIR$/sites/PorteFolio/sass/header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="27" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="691" selection-end="691" vertical-scroll-proportion="0.5942572">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/portefolio/stylesheets/header.css">
+    <entry file="file://$PROJECT_DIR$/sites/PorteFolio/stylesheets/header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -492,7 +454,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/portefolio/home.html">
+    <entry file="file://$PROJECT_DIR$/sites/PorteFolio/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="34" selection-start="3099" selection-end="3099" vertical-scroll-proportion="-21.695652">
           <folding />
@@ -508,7 +470,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/InterviewManager/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="7" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.62982005">
+        <state line="37" column="0" selection-start="1341" selection-end="1341" vertical-scroll-proportion="-22.52174">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.6255319">
           <folding />
         </state>
       </provider>

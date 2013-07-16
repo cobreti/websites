@@ -20,6 +20,16 @@ app.configure( 'all', function() {
         next();
     });
 
+    app.use( "/PorteFolio", function(req, res, next) {
+
+        if ( req.url === '/' ) {
+            res.redirect('/PorteFolio/home.html');
+            return;
+        }
+
+        next();
+    });
+
     app.use(
         "/",
         express.static("sites")
