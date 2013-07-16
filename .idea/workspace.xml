@@ -42,64 +42,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/PorteFolio/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="34" selection-start="3099" selection-end="3099" vertical-scroll-proportion="-21.695652">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/NyxTraceViewer/sass/header.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="0" selection-start="1015" selection-end="1108" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/InterviewManager/sass/header.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="22" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/NyxTraceViewer/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="82" selection-start="1067" selection-end="1133" vertical-scroll-proportion="-15.217391">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/InterviewManager/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1341" selection-end="1341" vertical-scroll-proportion="-22.52174">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="12" selection-start="419" selection-end="419" vertical-scroll-proportion="0.47659576">
+            <state line="25" column="54" selection-start="645" selection-end="645" vertical-scroll-proportion="0.54924244">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/PorteFolio/stylesheets/header.css">
+      <file leaf-file-name="NyxTraceViewer.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/PorteFolio/NyxTraceViewer/scripts/NyxTraceViewer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="10" column="66" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InterviewManager.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/PorteFolio/InterviewManager/scripts/InterviewManager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="66" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,11 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sites/InterviewManager/scripts/InterviewManager.js" />
-        <option value="$PROJECT_DIR$/sites/NyxTraceViewer/scripts/NyxTraceViewer.js" />
-        <option value="$PROJECT_DIR$/sites/InterviewManager/pages/technologies.html" />
-        <option value="$PROJECT_DIR$/sites/InterviewManager/sass/technologies.scss" />
-        <option value="$PROJECT_DIR$/sites/InterviewManager/pages/download.html" />
         <option value="$PROJECT_DIR$/sites/InterviewManager/sass/download.scss" />
         <option value="$PROJECT_DIR$/../fw_test/Control_1.htm" />
         <option value="$PROJECT_DIR$/sites/NyxTraceViewer/pages/download.html" />
@@ -130,13 +89,18 @@
         <option value="$PROJECT_DIR$/sites/InterviewManager/sass/header.scss" />
         <option value="$PROJECT_DIR$/sites/portefolio/home.html" />
         <option value="$PROJECT_DIR$/sites/InterviewManager/home.html" />
+        <option value="$PROJECT_DIR$/sites/PorteFolio/home.html" />
+        <option value="$PROJECT_DIR$/sites/PorteFolio/NyxTraceViewer/home.html" />
+        <option value="$PROJECT_DIR$/sites/PorteFolio/InterviewManager/home.html" />
+        <option value="$PROJECT_DIR$/sites/PorteFolio/NyxTraceViewer/scripts/NyxTraceViewer.js" />
+        <option value="$PROJECT_DIR$/sites/PorteFolio/InterviewManager/scripts/InterviewManager.js" />
         <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="547" />
-    <option name="y" value="398" />
+    <option name="x" value="437" />
+    <option name="y" value="368" />
     <option name="width" value="1260" />
     <option name="height" value="949" />
   </component>
@@ -184,6 +148,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="websites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="websites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PorteFolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="websites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="websites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PorteFolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InterviewManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="websites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="websites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PorteFolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InterviewManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -192,8 +222,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server.js" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server.js" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -248,17 +278,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="547" y="398" width="1260" height="949" extended-state="0" />
-    <editor active="false" />
+    <frame x="437" y="368" width="1260" height="949" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28536782" sideWeight="0.60072374" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28536782" sideWeight="0.67068756" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39927623" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -332,51 +362,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/InterviewManager/pages/overview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="0" selection-end="51" vertical-scroll-proportion="0.018300654" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/NyxTraceViewer/scripts/NyxTraceViewer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="196" selection-end="196" vertical-scroll-proportion="0.15730338" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/InterviewManager/sass/download.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="0" selection-end="407" vertical-scroll-proportion="0.052434456" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/InterviewManager/sass/technologies.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="780" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/InterviewManager/pages/technologies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="23" selection-end="1272" vertical-scroll-proportion="-24.956522" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/InterviewManager/pages/download.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="14" selection-start="810" selection-end="810" vertical-scroll-proportion="-10.956522" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/NyxTraceViewer/sass/download.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="7" selection-start="931" selection-end="931" vertical-scroll-proportion="0.9088639" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/NyxTraceViewer/pages/download.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="116" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.62222224" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/PorteFolio/sass/header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="27" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="56" column="27" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/PorteFolio/stylesheets/header.css">
@@ -386,44 +374,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/NyxTraceViewer/sass/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="1015" selection-end="1108" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/InterviewManager/sass/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="22" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/PorteFolio/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="34" selection-start="3099" selection-end="3099" vertical-scroll-proportion="-21.695652">
+        <state line="23" column="46" selection-start="827" selection-end="827" vertical-scroll-proportion="-6.0869565">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/NyxTraceViewer/home.html">
+    <entry file="file://$PROJECT_DIR$/sites/PorteFolio/NyxTraceViewer/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="82" selection-start="1067" selection-end="1133" vertical-scroll-proportion="-15.217391">
+        <state line="25" column="32" selection-start="1083" selection-end="1083" vertical-scroll-proportion="-15.217391">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/InterviewManager/home.html">
+    <entry file="file://$PROJECT_DIR$/sites/PorteFolio/InterviewManager/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1341" selection-end="1341" vertical-scroll-proportion="-22.52174">
+        <state line="25" column="13" selection-start="1103" selection-end="1104" vertical-scroll-proportion="0.6930693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/PorteFolio/NyxTraceViewer/scripts/NyxTraceViewer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="66" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/PorteFolio/InterviewManager/scripts/InterviewManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="66" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="12" selection-start="419" selection-end="419" vertical-scroll-proportion="0.47659576">
+        <state line="25" column="54" selection-start="645" selection-end="645" vertical-scroll-proportion="0.54924244">
           <folding />
         </state>
       </provider>

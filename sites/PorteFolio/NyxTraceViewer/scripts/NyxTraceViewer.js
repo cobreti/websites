@@ -1,6 +1,6 @@
 ( function() {
 
-    window.LoadContentPage = function LoadContentPage(page, scriptFile) {
+    window.LoadContentPage = function LoadContentPage(page) {
 
         var innerContent = $(document).find('.content-inner');
         innerContent.empty();
@@ -8,15 +8,11 @@
         try {
 
             var req = new XMLHttpRequest();
-            req.open('GET', window.location.origin + '/InterviewManager/pages/' + page);
+            req.open('GET', window.location.origin + '/PorteFolio/NyxTraceViewer/pages/' + page);
             req.onload = function() {
 
                 var content = $(req.responseText);
                 innerContent.append(content);
-
-                if (typeof scriptFile !== 'undefined') {
-                    $.getScript('../InterviewManager/scripts/' + scriptFile)
-                }
             }
 
             req.ontimeout = function() {
@@ -57,23 +53,24 @@
     };
 
 
-    $(document).ready( function() {
-
-        $(document).find('.menu-nav').find('li').each( function() {
-
-            $(this).click( function() {
-
-                var page = $(this).attr('data-page');
-                var scriptFile = $(this).attr('data-script-file');
-                LoadContentPage(page, scriptFile);
-                SelectMenuItem(page);
-            });
-        });
-
-        LoadContentPage('overview.html', 'overviewPage.js');
-        SelectMenuItem('overview.html');
-    });
 
 }) ();
+
+$(document).ready( function() {
+
+    $(document).find('.menu-nav').find('li').each( function() {
+
+        $(this).click( function() {
+
+            var page = $(this).attr('data-page');
+            LoadContentPage(page);
+            SelectMenuItem(page);
+        });
+    });
+
+
+    LoadContentPage('overview.html');
+    SelectMenuItem('overview.html');
+});
 
 

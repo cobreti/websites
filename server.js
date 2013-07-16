@@ -10,10 +10,20 @@ app.configure( 'all', function() {
         next();
     });
 
-    app.use( "/NyxTraceViewer", function(req, res, next) {
+    app.use( "/PorteFolio/NyxTraceViewer", function(req, res, next) {
 
         if ( req.url === '/' ) {
-            res.redirect('/NyxTraceViewer/home.html');
+            res.redirect('/PorteFolio/NyxTraceViewer/home.html');
+            return;
+        }
+
+        next();
+    });
+
+    app.use( "/PorteFolio/InterviewManager", function(req, res, next) {
+
+        if ( req.url === '/' ) {
+            res.redirect('/PorteFolio/InterviewManager/home.html');
             return;
         }
 
