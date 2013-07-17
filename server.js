@@ -30,6 +30,97 @@ app.configure( 'all', function() {
         next();
     });
 
+    app.use( "/PorteFolio/NyxTraceViewer/files/get", function(req, res, next) {
+
+        var files_info = {};
+        var folder_count = 0;
+
+        console.log(__dirname);
+
+        fs.readdir(__dirname + '/sites/PorteFolio/NyxTraceViewer/files/Linux_64/', function(err, files) {
+
+            if (typeof files !== 'undefined') {
+
+                files_info.Linux_64 = {};
+
+                var index = 0;
+                var len = files.length;
+                var exp = /\.gz?/;
+
+                while (index < len) {
+
+                    if (exp.exec(files[index]) !== null) {
+                        files_info.Linux_64[files[index]] = {};
+                    }
+
+                    index += 1;
+                }
+            }
+
+            folder_count += 1;
+
+            if (folder_count == 3) {
+                res.send(files_info);
+            }
+        });
+
+        fs.readdir(__dirname + '/sites/PorteFolio/NyxTraceViewer/files/Windows_64/', function(err, files) {
+
+            if (typeof files !== 'undefined') {
+
+                files_info.Windows_64 = {};
+
+                var index = 0;
+                var len = files.length;
+                var exp = /\.zip?/;
+
+                while (index < len) {
+
+                    if (exp.exec(files[index]) !== null) {
+                        files_info.Windows_64[files[index]] = {};
+                    }
+
+                    index += 1;
+                }
+            }
+
+            folder_count += 1;
+
+            if (folder_count == 3) {
+                res.send(files_info);
+            }
+        });
+
+        fs.readdir(__dirname + '/sites/PorteFolio/NyxTraceViewer/files/OSX_64/', function(err, files) {
+
+            if (typeof files !== 'undefined') {
+
+                files_info.OSX_64 = {};
+
+                var index = 0;
+                var len = files.length;
+                var exp = /\.dmg?/;
+
+
+                while (index < len) {
+
+                    if (exp.exec(files[index]) !== null) {
+                        files_info.OSX_64[files[index]] = {};
+                    }
+
+                    index += 1;
+                }
+            }
+
+            folder_count += 1;
+
+            if (folder_count == 3) {
+                res.send(files_info);
+            }
+        });
+
+    });
+
     app.use( "/PorteFolio", function(req, res, next) {
 
         if ( req.url === '/' ) {

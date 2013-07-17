@@ -1,6 +1,6 @@
 ( function() {
 
-    window.LoadContentPage = function LoadContentPage(page) {
+    window.LoadContentPage = function LoadContentPage(page, scriptFile) {
 
         var innerContent = $(document).find('.content-inner');
         innerContent.empty();
@@ -13,6 +13,10 @@
 
                 var content = $(req.responseText);
                 innerContent.append(content);
+
+                if (typeof scriptFile !== 'undefined') {
+                    $.getScript('../NyxTraceViewer/scripts/' + scriptFile)
+                }
             }
 
             req.ontimeout = function() {
@@ -63,7 +67,8 @@ $(document).ready( function() {
         $(this).click( function() {
 
             var page = $(this).attr('data-page');
-            LoadContentPage(page);
+            var scriptFile = $(this).attr('data-script-file');
+            LoadContentPage(page, scriptFile);
             SelectMenuItem(page);
         });
     });
