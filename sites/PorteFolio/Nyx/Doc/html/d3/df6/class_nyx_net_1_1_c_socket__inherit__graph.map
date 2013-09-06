@@ -1,0 +1,8 @@
+<map id="NyxNet::CSocket" name="NyxNet::CSocket">
+<area shape="rect" id="node3" href="$de/dbd/class_nyx_net_1_1_c_pipe_socket.html" title="NyxNet::CPipeSocket" alt="" coords="239,155,389,181"/>
+<area shape="rect" id="node6" href="$d6/d3d/class_nyx_net_1_1_c_tcp_ip_socket.html" title="NyxNet::CTcpIpSocket" alt="" coords="429,155,587,181"/>
+<area shape="rect" id="node2" href="$d7/dca/class_nyx_1_1_c_object.html" title="Nyx::CObject" alt="" coords="354,5,453,32"/>
+<area shape="rect" id="node4" href="$d8/dea/class_nyx_net_1_1_c_pipe_socket_reader.html" title="NyxNet::CPipeSocketReader" alt="" coords="5,229,197,256"/>
+<area shape="rect" id="node5" href="$d0/d81/class_nyx_net_1_1_c_pipe_socket_writer.html" title="NyxNet::CPipeSocketWriter" alt="" coords="222,229,407,256"/>
+<area shape="rect" id="node7" href="$df/def/class_nyx_net_1_1_c_s_s_l_tcp_ip_socket.html" title="NyxNet::CSSLTcpIpSocket" alt="" coords="431,229,613,256"/>
+</map>

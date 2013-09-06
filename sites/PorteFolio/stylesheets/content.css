@@ -90,28 +90,38 @@
   width: 100%;
   height: auto;
 }
-/* line 98, ../sass/content.scss */
+/* line 96, ../sass/content.scss */
+.project-section .project-img-cell .nyx-project-img {
+  position: relative;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 100px;
+  width: 100%;
+  height: auto;
+}
+/* line 108, ../sass/content.scss */
 .project-section .project-description-cell {
   position: relative;
   display: table-cell;
   vertical-align: middle;
 }
-/* line 103, ../sass/content.scss */
+/* line 113, ../sass/content.scss */
 .project-section .project-description-cell .project-description {
   position: relative;
   vertical-align: middle;
 }
-/* line 107, ../sass/content.scss */
+/* line 117, ../sass/content.scss */
 .project-section .project-description-cell .project-description p {
   line-height: 1.5em;
 }
-/* line 113, ../sass/content.scss */
+/* line 123, ../sass/content.scss */
 .project-section .project-description-cell .project-description ul li {
   list-style: none;
   margin-bottom: 1em;
 }
 
-/* line 122, ../sass/content.scss */
+/* line 132, ../sass/content.scss */
 .project-separator {
   border-bottom: 1px dotted;
   width: 60%;
