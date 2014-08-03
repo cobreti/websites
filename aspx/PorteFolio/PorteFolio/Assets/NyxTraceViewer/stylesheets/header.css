@@ -1,0 +1,74 @@
+/* line 1, ../sass/header.scss */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7em;
+  background-color: #6b7b91;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* line 12, ../sass/header.scss */
+.project-title {
+  position: relative;
+  left: 2em;
+  top: 1em;
+  font-family: 'Arbutus Slab', serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color: ffffff;
+  vertical-align: middle;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+/* line 25, ../sass/header.scss */
+.menu-nav {
+  position: relative;
+  bottom: -2em;
+  background-color: #555555;
+  width: 100%;
+  height: 2em;
+  -webkit-user-select: none;
+  /* Webkit */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE 10  */
+  -o-user-select: none;
+  user-select: none;
+}
+/* line 39, ../sass/header.scss */
+.menu-nav > ul {
+  position: relative;
+  top: 0.1em;
+}
+/* line 44, ../sass/header.scss */
+.menu-nav > ul > li {
+  float: left;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  color: fffff8;
+  cursor: pointer;
+}
+/* line 56, ../sass/header.scss */
+.menu-nav > ul > li.active {
+  background-color: #ea932f;
+}
+/* line 61, ../sass/header.scss */
+.menu-nav > ul > li:last-child {
+  float: right;
+}
+/* line 65, ../sass/header.scss */
+.menu-nav > ul > li:last-child > a {
+  color: #EEEEf8;
+}
+/* line 70, ../sass/header.scss */
+.menu-nav > ul > li:hover {
+  color: #ccccff;
+}

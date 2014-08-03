@@ -1,0 +1,51 @@
+.feature-section {
+
+  display: table;
+  position: relative;
+  margin-top: 2em;
+  //background: #EEEEEE;
+  margin-right: 4em;
+  vertical-align: middle;
+
+  .feature-img-cell {
+
+    display: table-cell;
+    position: relative;
+    width: 50%;
+    //max-width: 45%;
+    //min-width: 45%;
+    //max-width: 500px;
+    padding-right: 5em;
+
+    .feature-img {
+
+      position: relative;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      max-width: 450px;
+      width: 100%;
+      height: auto;
+    }
+
+  }
+
+  .feature-description-cell {
+    position: relative;
+    display: table-cell;
+    vertical-align:middle;
+
+    .feature-description {
+      position: relative;
+      vertical-align: middle;
+
+      ul {
+
+        li {
+          list-style:none;
+          margin-bottom: 1em;
+        }
+      }
+    }
+  }
+}
