@@ -1,0 +1,159 @@
+/* line 1, ../sass/overview.scss */
+.overview-desc {
+  position: relative;
+  text-align: center;
+  font: 20px Arial;
+  font-weight: bold;
+  line-height: 3em;
+  margin-bottom: 3em;
+}
+
+/* line 10, ../sass/overview.scss */
+.problematic .problematic-desc-title, .requirements .requirements-desc-title, .data-description .data-description-title, .solution .solution-title, .solution .solution-item .solution-item-title, .screenshots .screenshots-title {
+  font: 16px Arial;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+
+/* line 17, ../sass/overview.scss */
+.problematic .problematic-desc, .requirements .requirements-desc, .data-description .data-description-text {
+  margin-right: 5em;
+  margin-left: 2em;
+}
+
+/* line 23, ../sass/overview.scss */
+.problematic {
+  margin-bottom: 4em;
+}
+
+/* line 37, ../sass/overview.scss */
+.requirements {
+  margin-bottom: 4em;
+}
+/* line 49, ../sass/overview.scss */
+.requirements .requirements-desc ul li {
+  line-height: 2em;
+}
+
+/* line 57, ../sass/overview.scss */
+.data-description {
+  margin-bottom: 4em;
+}
+
+/* line 71, ../sass/overview.scss */
+.solution {
+  margin-bottom: 4em;
+}
+/* line 75, ../sass/overview.scss */
+.solution .solution-title {
+  font: 18px Arial;
+  font-weight: bolder;
+  margin-left: 10em;
+  margin-bottom: 2em;
+}
+/* line 83, ../sass/overview.scss */
+.solution .solution-item {
+  margin-bottom: 2em;
+}
+/* line 91, ../sass/overview.scss */
+.solution .solution-item .solution-item-text {
+  margin-right: 4em;
+  margin-left: 2em;
+}
+
+/* line 99, ../sass/overview.scss */
+.screenshots {
+  margin-bottom: 4em;
+}
+/* line 103, ../sass/overview.scss */
+.screenshots .screenshots-title {
+  font: 18px Arial;
+  font-weight: bolder;
+  margin-left: 10em;
+  margin-bottom: 0em;
+}
+/* line 112, ../sass/overview.scss */
+.screenshots .screenshots-content {
+  margin-left: 4em;
+  padding-left: 0px;
+  width: 750px;
+  height: 450px;
+  border: 1px double #000;
+}
+/* line 120, ../sass/overview.scss */
+.screenshots .screenshots-content ul {
+  padding-left: 0;
+  padding-top: 0;
+  margin-left: 0;
+  margin-top: 0;
+}
+/* line 126, ../sass/overview.scss */
+.screenshots .screenshots-content ul li {
+  list-style: none;
+  margin-top: 0px;
+  padding-left: 0px;
+}
+/* line 131, ../sass/overview.scss */
+.screenshots .screenshots-content ul li figure {
+  margin-left: 0;
+  margin-top: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 750px;
+  height: 450px;
+  background-position: center center;
+  background-size: contain;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-begin: 0;
+  -webkit-margin-end: 0;
+}
+/* line 150, ../sass/overview.scss */
+.screenshots .screenshots-content #Login-img {
+  background-image: url("../images/screenshots/Login.png");
+}
+/* line 154, ../sass/overview.scss */
+.screenshots .screenshots-content #MainPage-img {
+  background-image: url("../images/screenshots/MainPage.png");
+  display: none;
+}
+/* line 159, ../sass/overview.scss */
+.screenshots .screenshots-content #Import-img {
+  background-image: url("../images/screenshots/Import.png");
+  display: none;
+}
+/* line 164, ../sass/overview.scss */
+.screenshots .screenshots-content #ParagraphView-1-img {
+  background-image: url("../images/screenshots/ParagraphsView.png");
+  display: none;
+}
+/* line 169, ../sass/overview.scss */
+.screenshots .screenshots-content #ParagraphView-2-img {
+  background-image: url("../images/screenshots/ParagraphsView-2.png");
+  display: none;
+}
+/* line 174, ../sass/overview.scss */
+.screenshots .screenshots-content #AnnotationView-img {
+  background-image: url("../images/screenshots/AnnotationsView.png");
+  display: none;
+}
+/* line 179, ../sass/overview.scss */
+.screenshots .screenshots-content #AnnotationEdition-img {
+  background-image: url("../images/screenshots/AnnotationEdition.png");
+  display: none;
+}
+/* line 184, ../sass/overview.scss */
+.screenshots .screenshots-content #UserManagement-img {
+  background-image: url("../images/screenshots/UsersManagement.png");
+  display: none;
+}
+/* line 189, ../sass/overview.scss */
+.screenshots .screenshots-content .images-nav {
+  position: absolute;
+  height: 1em;
+  text-align: center;
+  width: 750px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}

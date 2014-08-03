@@ -1,0 +1,6 @@
+<map id="Nyx::CTraceOutput" name="Nyx::CTraceOutput">
+<area shape="rect" id="node3" href="$d7/d18/class_nyx_1_1_c_console_trace_output.html" title="Console trace output. " alt="" coords="5,155,189,181"/>
+<area shape="rect" id="node4" href="$db/d50/class_nyx_net_1_1_c_pipe_trace_output.html" title="NyxNet::CPipeTraceOutput" alt="" coords="215,155,399,181"/>
+<area shape="rect" id="node5" href="$d0/df7/class_nyx_net_1_1_c_tcp_ip_trace_output.html" title="NyxNet::CTcpIpTraceOutput" alt="" coords="423,155,613,181"/>
+<area shape="rect" id="node2" href="$d7/dca/class_nyx_1_1_c_object.html" title="Nyx::CObject" alt="" coords="257,5,356,32"/>
+</map>

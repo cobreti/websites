@@ -1,0 +1,31 @@
+/* line 1, ../sass/download.scss */
+.requirements {
+  padding-top: 2em;
+  margin-bottom: 4em;
+}
+/* line 6, ../sass/download.scss */
+.requirements .requirements-title {
+  font: 18px arial;
+  font-weight: bold;
+}
+/* line 11, ../sass/download.scss */
+.requirements .requirements-content {
+  margin-left: 2em;
+  margin-right: 4em;
+}
+
+/* line 18, ../sass/download.scss */
+.note {
+  margin-bottom: 4em;
+}
+/* line 22, ../sass/download.scss */
+.note .note-title {
+  font: 18px arial;
+  font-weight: bold;
+}
+/* line 28, ../sass/download.scss */
+.note .note-content {
+  font-style: italic;
+  margin-left: 2em;
+  margin-right: 4em;
+}

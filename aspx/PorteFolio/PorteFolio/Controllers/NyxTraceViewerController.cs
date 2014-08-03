@@ -15,11 +15,7 @@ namespace PorteFolio.Controllers
         [Route("~/NyxTraceViewer/Home/{id}")]
         public ActionResult Home(string id)
         {
-            ViewBag.Test = "test";
-            var view = View();
-
-
-            return view;
+            return View();
         }
     }
 }

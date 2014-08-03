@@ -15,7 +15,7 @@
                 innerContent.append(content);
 
                 if (typeof scriptFile !== 'undefined') {
-                    $.getScript('../NyxTraceViewer/scripts/' + scriptFile)
+                    $.getScript('/Assets/NyxTraceViewer/scripts/' + scriptFile)
                 }
             }
 
