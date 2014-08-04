@@ -37,6 +37,8 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <IncludeIisSettings>true</IncludeIisSettings>
+    <FilesToIncludeForPublish>AllFilesInTheProject</FilesToIncludeForPublish>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -124,7 +126,6 @@
     <Folder Include="images\NyxTraceViewer\" />
     <Folder Include="Models\" />
     <Folder Include="Pages\" />
-    <Folder Include="Views\Nyx\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -1326,6 +1327,7 @@
     <Content Include="Assets\Nyx\Doc\html\inherit_graph_9.map" />
     <Content Include="Assets\Nyx\Doc\html\inherit_graph_9.md5" />
     <Content Include="Assets\InterviewManager\files\InterviewManager.zip" />
+    <None Include="Properties\PublishProfiles\porte-folio.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
