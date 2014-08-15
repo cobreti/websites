@@ -8,6 +8,7 @@ namespace PorteFolio.Controllers
 {
     public class InterviewManagerController : Controller
     {
+        [Route("~/InterviewManager")]
         [Route("~/InterviewManager/Home/{id}")]
         public ActionResult Home(string id)
         {

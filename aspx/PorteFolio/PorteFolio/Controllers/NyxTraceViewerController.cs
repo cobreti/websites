@@ -12,6 +12,7 @@ namespace PorteFolio.Controllers
 {
     public class NyxTraceViewerController : Controller
     {
+        [Route("~/NyxTraceViewer")]
         [Route("~/NyxTraceViewer/Home/{id}")]
         public ActionResult Home(string id)
         {
