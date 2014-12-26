@@ -1,0 +1,122 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', '-g', 'install', 'coffeescript' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 verbose cache add [ 'coffeescript', null ]
+5 verbose cache add name=undefined spec="coffeescript" args=["coffeescript",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'coffeescript',
+6 verbose parsed url   path: 'coffeescript',
+6 verbose parsed url   href: 'coffeescript' }
+7 silly lockFile f5fbc02e-coffeescript coffeescript
+8 verbose lock coffeescript /Users/dannyt/.npm/f5fbc02e-coffeescript.lock
+9 silly lockFile f5fbc02e-coffeescript coffeescript
+10 silly lockFile f5fbc02e-coffeescript coffeescript
+11 verbose addNamed [ 'coffeescript', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 62a8d146-coffeescript coffeescript@
+14 verbose lock coffeescript@ /Users/dannyt/.npm/62a8d146-coffeescript.lock
+15 silly addNameRange { name: 'coffeescript', range: '*', hasData: false }
+16 verbose request where is /coffeescript
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id ba81448f73b3835e
+19 verbose url raw /coffeescript
+20 verbose url resolving [ 'https://registry.npmjs.org/', './coffeescript' ]
+21 verbose url resolved https://registry.npmjs.org/coffeescript
+22 verbose request where is https://registry.npmjs.org/coffeescript
+23 info trying registry request attempt 1 at 09:55:26
+24 verbose etag "EKPPI3VL1AS1AFVP62JKWNOZB"
+25 http GET https://registry.npmjs.org/coffeescript
+26 http 304 https://registry.npmjs.org/coffeescript
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Fri, 26 Dec 2014 14:55:26 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'last-modified': 'Fri, 26 Dec 2014 14:55:26 GMT',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     etag: '"EKPPI3VL1AS1AFVP62JKWNOZB"',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-jfk1028-JFK',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1419605726.451184,VS0,VE25',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'content-length': '0',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose etag https://registry.npmjs.org/coffeescript from cache
+29 silly addNameRange number 2 { name: 'coffeescript', range: '*', hasData: true }
+30 silly addNameRange versions [ 'coffeescript', [ '99.999.9999', '99.999.99999' ] ]
+31 verbose addNamed [ 'coffeescript', '99.999.99999' ]
+32 verbose addNamed [ '99.999.99999', '99.999.99999' ]
+33 silly lockFile 504f0aef-coffeescript-99-999-99999 coffeescript@99.999.99999
+34 verbose lock coffeescript@99.999.99999 /Users/dannyt/.npm/504f0aef-coffeescript-99-999-99999.lock
+35 warn deprecated coffeescript@99.999.99999: You misspelled 'coffee-script'
+36 silly lockFile 504f0aef-coffeescript-99-999-99999 coffeescript@99.999.99999
+37 silly lockFile 504f0aef-coffeescript-99-999-99999 coffeescript@99.999.99999
+38 silly lockFile 62a8d146-coffeescript coffeescript@
+39 silly lockFile 62a8d146-coffeescript coffeescript@
+40 silly resolved [ { name: 'coffeescript',
+40 silly resolved     version: '99.999.99999',
+40 silly resolved     scripts: { preinstall: 'node super-evil-script-omg-for-reals.js' },
+40 silly resolved     _id: 'coffeescript@99.999.99999',
+40 silly resolved     dist:
+40 silly resolved      { shasum: '98f6a60410f827dcb06c067db5539c03c932ad75',
+40 silly resolved        tarball: 'http://registry.npmjs.org/coffeescript/-/coffeescript-99.999.99999.tgz' },
+40 silly resolved     _from: 'coffeescript@',
+40 silly resolved     _npmVersion: '1.4.4',
+40 silly resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+40 silly resolved     maintainers: [ [Object] ],
+40 silly resolved     deprecated: 'You misspelled \'coffee-script\'',
+40 silly resolved     directories: {},
+40 silly resolved     _shasum: '98f6a60410f827dcb06c067db5539c03c932ad75',
+40 silly resolved     _resolved: 'https://registry.npmjs.org/coffeescript/-/coffeescript-99.999.99999.tgz',
+40 silly resolved     readme: 'ERROR: No README data found!' } ]
+41 info install coffeescript@99.999.99999 into /usr/local/lib
+42 info installOne coffeescript@99.999.99999
+43 verbose lib/node_modules/coffeescript unbuild
+44 verbose tar unpack /Users/dannyt/.npm/coffeescript/99.999.99999/package.tgz
+45 silly lockFile d4272b28-al-lib-node-modules-coffeescript tar:///usr/local/lib/node_modules/coffeescript
+46 verbose lock tar:///usr/local/lib/node_modules/coffeescript /Users/dannyt/.npm/d4272b28-al-lib-node-modules-coffeescript.lock
+47 silly lockFile abea32cd-escript-99-999-99999-package-tgz tar:///Users/dannyt/.npm/coffeescript/99.999.99999/package.tgz
+48 verbose lock tar:///Users/dannyt/.npm/coffeescript/99.999.99999/package.tgz /Users/dannyt/.npm/abea32cd-escript-99-999-99999-package-tgz.lock
+49 silly gunzTarPerm modes [ '755', '644' ]
+50 silly gunzTarPerm extractEntry package.json
+51 silly gunzTarPerm extractEntry super-evil-script-omg-for-reals.js
+52 silly lockFile d4272b28-al-lib-node-modules-coffeescript tar:///usr/local/lib/node_modules/coffeescript
+53 silly lockFile d4272b28-al-lib-node-modules-coffeescript tar:///usr/local/lib/node_modules/coffeescript
+54 silly lockFile abea32cd-escript-99-999-99999-package-tgz tar:///Users/dannyt/.npm/coffeescript/99.999.99999/package.tgz
+55 silly lockFile abea32cd-escript-99-999-99999-package-tgz tar:///Users/dannyt/.npm/coffeescript/99.999.99999/package.tgz
+56 info preinstall coffeescript@99.999.99999
+57 verbose unsafe-perm in lifecycle false
+58 info coffeescript@99.999.99999 Failed to exec preinstall script
+59 verbose lib/node_modules/coffeescript unbuild
+60 info preuninstall coffeescript@99.999.99999
+61 info uninstall coffeescript@99.999.99999
+62 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild coffeescript@99.999.99999
+63 info postuninstall coffeescript@99.999.99999
+64 error coffeescript@99.999.99999 preinstall: `node super-evil-script-omg-for-reals.js`
+64 error Exit status 1
+65 error Failed at the coffeescript@99.999.99999 preinstall script.
+65 error This is most likely a problem with the coffeescript package,
+65 error not with npm itself.
+65 error Tell the author that this fails on your system:
+65 error     node super-evil-script-omg-for-reals.js
+65 error You can get their info via:
+65 error     npm owner ls coffeescript
+65 error There is likely additional logging output above.
+66 error System Darwin 14.0.0
+67 error command "node" "/usr/local/bin/npm" "-g" "install" "coffeescript"
+68 error cwd /Volumes/dev/websites/NodeServers/DannyThibaudeau
+69 error node -v v0.10.31
+70 error npm -v 1.4.23
+71 error code ELIFECYCLE
+72 verbose exit [ 1, true ]

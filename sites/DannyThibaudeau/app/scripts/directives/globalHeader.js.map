@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "globalHeader.js",
+  "sourceRoot": "",
+  "sources": [
+    "globalHeader.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,EAAA,OAAO,CAAC,MAAR,CAAe,oBAAf,CAAoC,CAClC,SADF,CACY,cADZ,EAC4B,SAAA,GAAA;WACxB;AAAA,MAAA,QAAA,EAAU,GAAV;AAAA,MACA,WAAA,EAAa,8BADb;AAAA,MAEA,IAAA,EAAM,SAAA,GAAA;AACJ,YAAA,IAAA;eAAA,IAAA,GAAO,OADH;MAAA,CAFN;MADwB;EAAA,CAD5B,CAAA,CAAA;AAAA"
+}
