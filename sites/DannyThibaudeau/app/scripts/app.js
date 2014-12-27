@@ -25,7 +25,7 @@ angular
       })
       .when('/porte-folio', {
         templateUrl: 'views/portefolio.html',
-        controller: 'porte-folio'
+        controller: 'Porte-folio'
       })
       .when('/about', {
         templateUrl: 'views/about.html',

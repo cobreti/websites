@@ -1,4 +1,5 @@
 angular.module('dannyThibaudeauApp')
-  .controller('porte-folio', () ->
-
+  .controller('Porte-folio', ['$route', ($route) ->
+    console.log($route)
+  ]
 )

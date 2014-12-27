@@ -5,5 +5,37 @@
   height: 100px;
   top: 0;
   left: 0;
-  background-color: #707F94;
+  background-color: #3D6399;
+  cursor: default;
+
+  .site-name {
+    position: relative;
+    display: block;
+    color: #00F0FF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+  }
+
+  .sub-title {
+    position: relative;
+    display: block;
+    top: 15px;
+    left: 25px;
+    color: #00F0FF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+  }
+
+  .route-path {
+    position: absolute;
+    display: block;
+    right: 15px;
+    top: 15px;
+    color: #00F0FF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+  }
 }

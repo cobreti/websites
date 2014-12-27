@@ -1,0 +1,27 @@
+.global-menu {
+
+  .menu-item {
+    color: #00F0FF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .menu-item-selected {
+    color: #FF7140
+  }
+
+  .porte-folio {
+    position: absolute;
+    display: inline-block;
+    top: 30px;
+    left: 500px;
+  }
+
+  .home {
+    position: absolute;
+    display: inline-block;
+    top: 30px;
+    left: 350px;
+  }
+}

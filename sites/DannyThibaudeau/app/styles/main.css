@@ -5,13 +5,57 @@
   height: 100px;
   top: 0;
   left: 0;
-  background-color: #707F94; }
+  background-color: #3D6399;
+  cursor: default; }
+  .globalHeader .site-name {
+    position: relative;
+    display: block;
+    color: #00F0FF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    top: 15px;
+    left: 15px;
+    cursor: pointer; }
+  .globalHeader .sub-title {
+    position: relative;
+    display: block;
+    top: 15px;
+    left: 25px;
+    color: #00F0FF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px; }
+  .globalHeader .route-path {
+    position: absolute;
+    display: block;
+    right: 15px;
+    top: 15px;
+    color: #00F0FF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px; }
 
 .global-content {
   position: absolute;
   display: block;
   top: 100px;
   left: 0px; }
+
+.global-menu .menu-item {
+  color: #00F0FF;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  cursor: pointer; }
+.global-menu .menu-item-selected {
+  color: #FF7140; }
+.global-menu .porte-folio {
+  position: absolute;
+  display: inline-block;
+  top: 30px;
+  left: 500px; }
+.global-menu .home {
+  position: absolute;
+  display: inline-block;
+  top: 30px;
+  left: 350px; }
 
 .browsehappy {
   margin: 0.2em 0;
