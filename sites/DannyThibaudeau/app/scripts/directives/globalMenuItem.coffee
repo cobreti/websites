@@ -10,20 +10,24 @@ angular.module('dannyThibaudeauApp')
         constructor: ->
 
           @text = $attr.text
+          @path = "/#{$attr.route}/InterviewManager"
 
           @updateItemStatus($route.current.originalPath)
           $scope.text = @text
-          console.log($attr)
 
           $scope.$on('$routeChangeSuccess', () =>
-            @updateItemStatus($route.current.originalPath)
+            if $route.current.originalPath
+              @updateItemStatus($route.current.originalPath)
           )
 
           $scope.changeRoute = () =>
-            $location.path($attr.route)
+            $location.path(@path)
 
         updateItemStatus: (currentRoute) ->
-          if currentRoute == $attr.route
+
+          pathItems = currentRoute.split('/')
+
+          if pathItems.length > 1 && pathItems[1] == $attr.route
             $element.addClass('menu-item-selected')
           else
             $element.removeClass('menu-item-selected')

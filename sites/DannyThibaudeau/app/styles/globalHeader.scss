@@ -8,34 +8,42 @@
   background-color: #3D6399;
   cursor: default;
 
-  .site-name {
-    position: relative;
-    display: block;
-    color: #00F0FF;
+  .header-font {
     font-family: 'Quicksand', sans-serif;
+    color: #E1E1E1;
+  }
+
+  .site-name {
+    @extend .header-font;
+
+    position: relative;
+    display: inline-block;
     font-size: 24px;
     top: 15px;
     left: 15px;
     cursor: pointer;
   }
 
+  .site-name:hover {
+    text-shadow: 0 0 4px #FF7140
+  }
+
   .sub-title {
+    @extend .header-font;
+
     position: relative;
     display: block;
     top: 15px;
     left: 25px;
-    color: #00F0FF;
-    font-family: 'Quicksand', sans-serif;
     font-size: 14px;
   }
 
   .route-path {
+    @extend .header-font;
     position: absolute;
     display: block;
     right: 15px;
     top: 15px;
-    color: #00F0FF;
-    font-family: 'Quicksand', sans-serif;
     font-size: 14px;
   }
 }

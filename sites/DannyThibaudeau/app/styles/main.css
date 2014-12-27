@@ -7,30 +7,29 @@
   left: 0;
   background-color: #3D6399;
   cursor: default; }
+  .globalHeader .header-font, .globalHeader .site-name, .globalHeader .sub-title, .globalHeader .route-path {
+    font-family: 'Quicksand', sans-serif;
+    color: #E1E1E1; }
   .globalHeader .site-name {
     position: relative;
-    display: block;
-    color: #00F0FF;
-    font-family: 'Quicksand', sans-serif;
+    display: inline-block;
     font-size: 24px;
     top: 15px;
     left: 15px;
     cursor: pointer; }
+  .globalHeader .site-name:hover {
+    text-shadow: 0 0 4px #FF7140; }
   .globalHeader .sub-title {
     position: relative;
     display: block;
     top: 15px;
     left: 25px;
-    color: #00F0FF;
-    font-family: 'Quicksand', sans-serif;
     font-size: 14px; }
   .globalHeader .route-path {
     position: absolute;
     display: block;
     right: 15px;
     top: 15px;
-    color: #00F0FF;
-    font-family: 'Quicksand', sans-serif;
     font-size: 14px; }
 
 .global-content {
@@ -39,11 +38,14 @@
   top: 100px;
   left: 0px; }
 
-.global-menu .menu-item {
-  color: #00F0FF;
+.global-menu .menu-font, .global-menu .menu-item {
   font-family: 'Quicksand', sans-serif;
-  font-size: 24px;
+  color: #D1D1D1;
+  font-size: 24px; }
+.global-menu .menu-item {
   cursor: pointer; }
+.global-menu .menu-item:hover {
+  text-shadow: 0 0 4px #FF7140; }
 .global-menu .menu-item-selected {
   color: #FF7140; }
 .global-menu .porte-folio {

@@ -11,23 +11,27 @@
           GlobalMenuItem = (function() {
             function GlobalMenuItem() {
               this.text = $attr.text;
+              this.path = "/" + $attr.route + "/InterviewManager";
               this.updateItemStatus($route.current.originalPath);
               $scope.text = this.text;
-              console.log($attr);
               $scope.$on('$routeChangeSuccess', (function(_this) {
                 return function() {
-                  return _this.updateItemStatus($route.current.originalPath);
+                  if ($route.current.originalPath) {
+                    return _this.updateItemStatus($route.current.originalPath);
+                  }
                 };
               })(this));
               $scope.changeRoute = (function(_this) {
                 return function() {
-                  return $location.path($attr.route);
+                  return $location.path(_this.path);
                 };
               })(this);
             }
 
             GlobalMenuItem.prototype.updateItemStatus = function(currentRoute) {
-              if (currentRoute === $attr.route) {
+              var pathItems;
+              pathItems = currentRoute.split('/');
+              if (pathItems.length > 1 && pathItems[1] === $attr.route) {
                 return $element.addClass('menu-item-selected');
               } else {
                 return $element.removeClass('menu-item-selected');
