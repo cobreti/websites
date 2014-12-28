@@ -34,7 +34,7 @@
     font-size: 14px; }
 
 .global-content {
-  position: absolute;
+  position: fixed;
   display: block;
   top: 110px;
   left: 10px;
