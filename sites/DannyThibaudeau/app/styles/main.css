@@ -42,9 +42,9 @@
   bottom: 10px; }
 
 .global-menu .menu-font, .global-menu .menu-item {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Vesper Libre', serif;
   color: #D1D1D1;
-  font-size: 24px; }
+  font-size: 20px; }
 .global-menu .menu-item {
   cursor: pointer;
   white-space: nowrap; }
@@ -55,8 +55,8 @@
 .global-menu .porte-folio {
   position: absolute;
   display: inline-block;
-  top: 30px;
-  left: 500px; }
+  bottom: 10px;
+  left: 300px; }
 .global-menu .home {
   position: absolute;
   display: inline-block;

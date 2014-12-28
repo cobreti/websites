@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b639d0-78f3-412e-ab8d-95ea0b1ac20a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/globalContent.scss" afterPath="$PROJECT_DIR$/app/styles/globalContent.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/globalMenu.scss" afterPath="$PROJECT_DIR$/app/styles/globalMenu.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/globalMenuItem.coffee" afterPath="$PROJECT_DIR$/app/scripts/directives/globalMenuItem.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/globalMenuItem.js.map" afterPath="$PROJECT_DIR$/app/scripts/directives/globalMenuItem.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/globalMenuItem.js" afterPath="$PROJECT_DIR$/app/scripts/directives/globalMenuItem.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css.map" afterPath="$PROJECT_DIR$/app/styles/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/portefolio.html" afterPath="$PROJECT_DIR$/app/views/portefolio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/porteFolioItem.css.map" afterPath="$PROJECT_DIR$/app/styles/porteFolioItem.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/porteFolioItem.css" afterPath="$PROJECT_DIR$/app/styles/porteFolioItem.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/porteFolioItem.scss" afterPath="$PROJECT_DIR$/app/styles/porteFolioItem.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../NodeServers/DannyThibaudeau/server.js" afterPath="$PROJECT_DIR$/../../NodeServers/DannyThibaudeau/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../NodeServers/DannyThibaudeau/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../NodeServers/DannyThibaudeau/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DannyThibaudeau.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +34,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="porteFolioItem.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="porteFolioItem.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/porteFolioItem.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12435233" vertical-offset="0" max-vertical-offset="1500">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state vertical-scroll-proportion="-35.625" vertical-offset="555" max-vertical-offset="1545">
+              <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="globalMenu.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/styles/globalMenu.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4041451" vertical-offset="0" max-vertical-offset="965">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -54,6 +59,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="330">
               <caret line="14" column="42" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1470">
+              <caret line="16" column="102" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="102" />
               <folding />
             </state>
           </provider>
@@ -83,8 +98,6 @@
         <option value="$PROJECT_DIR$/app/styles/globalHeader.scss" />
         <option value="$PROJECT_DIR$/app/scripts/directives/globalMenuItem.coffee" />
         <option value="$PROJECT_DIR$/app/styles/globalContent.scss" />
-        <option value="$PROJECT_DIR$/app/styles/globalMenu.scss" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/fragments/interviewManagerDescription.html" />
         <option value="$PROJECT_DIR$/app/scripts/directives/porteFolioItem.coffee" />
@@ -94,6 +107,8 @@
         <option value="$PROJECT_DIR$/app/views/portefolio.html" />
         <option value="$PROJECT_DIR$/app/directives/porteFolioItem.html" />
         <option value="$PROJECT_DIR$/app/styles/porteFolioItem.scss" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/styles/globalMenu.scss" />
       </list>
     </option>
   </component>
@@ -711,22 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0416665" vertical-offset="476" max-vertical-offset="1425">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/globalMenu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="630">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/globalContent.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="210">
@@ -747,14 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="315">
           <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/fragments/interviewManagerDescription.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -783,6 +774,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/fragments/interviewManagerDescription.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.078781515" vertical-offset="0" max-vertical-offset="952">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/directives/porteFolioItem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="330">
@@ -791,10 +790,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1470">
+          <caret line="16" column="102" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/porteFolioItem.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12435233" vertical-offset="0" max-vertical-offset="1500">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state vertical-scroll-proportion="-35.625" vertical-offset="555" max-vertical-offset="1545">
+          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/globalMenu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4041451" vertical-offset="0" max-vertical-offset="965">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding />
         </state>
       </provider>
