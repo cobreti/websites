@@ -10,7 +10,7 @@ angular.module('dannyThibaudeauApp')
         constructor: ->
 
           @text = $attr.text
-          @path = "/#{$attr.route}/InterviewManager"
+          @path = "/#{$attr.route}"
 
           @updateItemStatus($route.current.originalPath)
           $scope.text = @text

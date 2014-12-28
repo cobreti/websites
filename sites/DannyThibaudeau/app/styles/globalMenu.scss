@@ -9,6 +9,7 @@
   .menu-item {
     @extend .menu-font;
     cursor: pointer;
+    white-space: nowrap;
   }
 
   .menu-item:hover {

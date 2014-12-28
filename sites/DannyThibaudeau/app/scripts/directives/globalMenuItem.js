@@ -11,7 +11,7 @@
           GlobalMenuItem = (function() {
             function GlobalMenuItem() {
               this.text = $attr.text;
-              this.path = "/" + $attr.route + "/InterviewManager";
+              this.path = "/" + $attr.route;
               this.updateItemStatus($route.current.originalPath);
               $scope.text = this.text;
               $scope.$on('$routeChangeSuccess', (function(_this) {
