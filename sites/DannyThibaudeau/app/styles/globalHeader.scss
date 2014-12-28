@@ -7,6 +7,7 @@
   left: 0;
   background-color: #3D6399;
   cursor: default;
+  overflow: hidden;
 
   .header-font {
     font-family: 'Quicksand', sans-serif;
@@ -45,5 +46,29 @@
     right: 15px;
     top: 15px;
     font-size: 14px;
+  }
+
+  .section-title {
+
+    @extend .header-font;
+
+    position: absolute;
+    display: block;
+    bottom: -30px;
+    left: 400px;
+
+    font-size: 20px;
+  }
+
+  .section-title-hidden {
+
+    bottom: -30px;
+    transition-duration: 0.25s;
+  }
+
+  .section-title-visible {
+
+    bottom: 15px;
+    transition-duration: 0.25s;
   }
 }

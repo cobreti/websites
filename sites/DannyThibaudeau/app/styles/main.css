@@ -7,8 +7,9 @@
   top: 0;
   left: 0;
   background-color: #3D6399;
-  cursor: default; }
-  .globalHeader .header-font, .globalHeader .site-name, .globalHeader .sub-title, .globalHeader .route-path {
+  cursor: default;
+  overflow: hidden; }
+  .globalHeader .header-font, .globalHeader .site-name, .globalHeader .sub-title, .globalHeader .route-path, .globalHeader .section-title {
     font-family: 'Quicksand', sans-serif;
     color: #E1E1E1; }
   .globalHeader .site-name {
@@ -32,6 +33,18 @@
     right: 15px;
     top: 15px;
     font-size: 14px; }
+  .globalHeader .section-title {
+    position: absolute;
+    display: block;
+    bottom: -30px;
+    left: 400px;
+    font-size: 20px; }
+  .globalHeader .section-title-hidden {
+    bottom: -30px;
+    transition-duration: 0.25s; }
+  .globalHeader .section-title-visible {
+    bottom: 15px;
+    transition-duration: 0.25s; }
 
 .global-content {
   position: fixed;

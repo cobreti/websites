@@ -6,6 +6,8 @@
         <item url="file://$PROJECT_DIR$/app/scripts/controllers/portefolio.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/directives/globalMenuItem.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/directives/porteFolioItem.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/services/sectionsMgr.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/controllers/interviewManager.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/directives/globalMenu.js" />
       </sourceFilesUrls>
     </properties>
@@ -14,7 +16,9 @@
       <root url="file://$PROJECT_DIR$/app/scripts/controllers/portefolio.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/directives/globalMenuItem.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/directives/porteFolioItem.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/services/sectionsMgr.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/directives/globalMenu.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/controllers/interviewManager.js" />
     </CLASSES>
     <SOURCES />
   </library>

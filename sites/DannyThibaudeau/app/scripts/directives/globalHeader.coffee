@@ -1,5 +1,6 @@
 angular.module('dannyThibaudeauApp')
-  .directive('globalHeader', ['$location', '$route', '$routeParams', ($location, $route, $routeParams) ->
+  .directive('globalHeader', ['$location', '$route', 'sectionsMgr',
+    ($location, $route, sectionsMgr) ->
       restrict: 'EA'
       scope: true
       templateUrl: 'directives/globalHeader.html'
@@ -8,9 +9,22 @@ angular.module('dannyThibaudeauApp')
         class GlobalHeader
 
           constructor: ->
-            $scope.$on('$routeChangeSuccess', () ->
+
+            @sectionTitleElm = $element.find('.section-title')
+
+            $scope.$on('$routeChangeSuccess', () =>
               $scope.originalPath = $route.current.originalPath
+
+              section = sectionsMgr.getCurrentSection()
+              if section?
+                @sectionTitleElm.text(section.title)
+                @sectionTitleElm.removeClass('section-title-hidden')
+                @sectionTitleElm.addClass('section-title-visible')
+              else
+                @sectionTitleElm.removeClass('section-title-visible')
+                @sectionTitleElm.addClass('section-title-hidden')
             )
+
             $scope.originalPath = $route.current.originalPath
 
             $scope.goHome = () =>

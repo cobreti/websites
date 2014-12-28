@@ -1,31 +1,36 @@
 angular.module('dannyThibaudeauApp')
-  .directive('globalMenu', ['$route', '$routeParams', ($route, $routeParams) ->
-    restrict: 'EA'
-    scope: true
-    templateUrl: 'directives/globalMenu.html'
-    link: ($scope, $element, $attributes) ->
+  .directive('globalMenu', ['$route', '$routeParams', 'sectionsMgr',
+    ($route, $routeParams, sectionsMgr) ->
+      restrict: 'EA'
+      scope: true
+      templateUrl: 'directives/globalMenu.html'
+      link: ($scope, $element, $attributes) ->
 
-      class GlobalMenu
-        constructor: ->
+        class GlobalMenu
+          constructor: ->
 
-          @globalMenuElm = $element.find('.global-menu')
+            @globalMenuElm = $element.find('.global-menu')
 
-          $scope.$on('$routeChangeSuccess', () =>
-            if $route.current.originalPath
-              @updateFollowingRouteChange()
-          )
+            $scope.$on('$routeChangeSuccess', () =>
+              if $route.current.originalPath
+                @updateFollowingRouteChange($route.current)
+            )
 
-        updateFollowingRouteChange: ->
+            @setMenuPosition()
 
-          pathItems = $route.current.originalPath.split('/')
+          updateFollowingRouteChange: (current) ->
 
-          if pathItems.length > 2 && !@globalMenuElm.hasClass('global-menu-top')
-            @globalMenuElm.removeClass('global-menu-bottom')
-            @globalMenuElm.addClass('global-menu-top')
+            @setMenuPosition()
 
-          if pathItems.length < 3 && @globalMenuElm.hasClass('global-menu-top')
-            @globalMenuElm.addClass('global-menu-bottom')
-            @globalMenuElm.removeClass('global-menu-top')
+          setMenuPosition: () ->
+            section = sectionsMgr.getCurrentSection()
 
-      return new GlobalMenu()
+            if section?
+              @globalMenuElm.removeClass('global-menu-bottom')
+              @globalMenuElm.addClass('global-menu-top')
+            else
+              @globalMenuElm.addClass('global-menu-bottom')
+              @globalMenuElm.removeClass('global-menu-top')
+
+        return new GlobalMenu()
   ])
