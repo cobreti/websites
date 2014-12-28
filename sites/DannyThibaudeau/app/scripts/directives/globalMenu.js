@@ -6,8 +6,37 @@
         restrict: 'EA',
         scope: true,
         templateUrl: 'directives/globalMenu.html',
-        link: function(scope, element, attributes) {
-          console.log(attributes);
+        link: function($scope, $element, $attributes) {
+          var GlobalMenu;
+          GlobalMenu = (function() {
+            function GlobalMenu() {
+              this.globalMenuElm = $element.find('.global-menu');
+              $scope.$on('$routeChangeSuccess', (function(_this) {
+                return function() {
+                  if ($route.current.originalPath) {
+                    return _this.updateFollowingRouteChange();
+                  }
+                };
+              })(this));
+            }
+
+            GlobalMenu.prototype.updateFollowingRouteChange = function() {
+              var pathItems;
+              pathItems = $route.current.originalPath.split('/');
+              if (pathItems.length > 2 && !this.globalMenuElm.hasClass('global-menu-top')) {
+                this.globalMenuElm.removeClass('global-menu-bottom');
+                this.globalMenuElm.addClass('global-menu-top');
+              }
+              if (pathItems.length < 3 && this.globalMenuElm.hasClass('global-menu-top')) {
+                this.globalMenuElm.addClass('global-menu-bottom');
+                return this.globalMenuElm.removeClass('global-menu-top');
+              }
+            };
+
+            return GlobalMenu;
+
+          })();
+          return new GlobalMenu();
         }
       };
     }

@@ -41,27 +41,43 @@
   right: 10px;
   bottom: 10px; }
 
-.global-menu .menu-font, .global-menu .menu-item {
-  font-family: 'Vesper Libre', serif;
-  color: #D1D1D1;
-  font-size: 20px; }
-.global-menu .menu-item {
-  cursor: pointer;
-  white-space: nowrap; }
-.global-menu .menu-item:hover {
-  text-shadow: 0 0 4px #FF7140; }
-.global-menu .menu-item-selected {
-  color: #FF7140; }
-.global-menu .porte-folio {
+.global-menu {
   position: absolute;
-  display: inline-block;
+  display: block;
+  left: 300px;
   bottom: 10px;
-  left: 300px; }
-.global-menu .home {
-  position: absolute;
-  display: inline-block;
-  top: 30px;
-  left: 350px; }
+  width: 400px;
+  height: 30px;
+  overflow: hidden; }
+  .global-menu .menu-font, .global-menu .menu-item {
+    font-family: 'Vesper Libre', serif;
+    color: #D1D1D1;
+    font-size: 20px; }
+  .global-menu .menu-item {
+    cursor: pointer;
+    white-space: nowrap; }
+  .global-menu .menu-item:hover {
+    text-shadow: 0 0 4px #FF7140; }
+  .global-menu .menu-item-selected {
+    color: #FF7140; }
+  .global-menu .porte-folio {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    left: 0; }
+  .global-menu .home {
+    position: absolute;
+    display: inline-block;
+    top: 30px;
+    left: 350px; }
+
+.global-menu-top {
+  bottom: 50px;
+  transition-duration: 0.25s; }
+
+.global-menu-bottom {
+  bottom: 10px;
+  transition-duration: 0.25s; }
 
 .porte-folio-content {
   position: absolute;

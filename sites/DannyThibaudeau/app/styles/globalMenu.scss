@@ -1,5 +1,13 @@
 .global-menu {
 
+  position: absolute;
+  display: block;
+  left: 300px;
+  bottom: 10px;
+  width: 400px;
+  height: 30px;
+  overflow: hidden;
+
   .menu-font {
     font-family: 'Vesper Libre', serif;
     color: #D1D1D1;
@@ -21,10 +29,10 @@
   }
 
   .porte-folio {
-    position: absolute;
+    position: relative;
     display: inline-block;
-    bottom: 10px;
-    left: 300px;
+    top: 0;
+    left: 0;
   }
 
   .home {
@@ -33,4 +41,15 @@
     top: 30px;
     left: 350px;
   }
+}
+
+.global-menu-top {
+
+  bottom: 50px;
+  transition-duration: 0.25s;
+}
+
+.global-menu-bottom {
+  bottom: 10px;
+  transition-duration: 0.25s;
 }

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b639d0-78f3-412e-ab8d-95ea0b1ac20a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/globalContent.scss" afterPath="$PROJECT_DIR$/app/styles/globalContent.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/globalMenu.coffee" afterPath="$PROJECT_DIR$/app/scripts/directives/globalMenu.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/globalMenu.js.map" afterPath="$PROJECT_DIR$/app/scripts/directives/globalMenu.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/globalMenu.js" afterPath="$PROJECT_DIR$/app/scripts/directives/globalMenu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/globalMenu.scss" afterPath="$PROJECT_DIR$/app/styles/globalMenu.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css.map" afterPath="$PROJECT_DIR$/app/styles/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/porteFolioItem.coffee" afterPath="$PROJECT_DIR$/app/scripts/directives/porteFolioItem.coffee" />
@@ -12,9 +15,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/porteFolioItem.js.map" afterPath="$PROJECT_DIR$/app/scripts/directives/porteFolioItem.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/porteFolioItem.js" afterPath="$PROJECT_DIR$/app/scripts/directives/porteFolioItem.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/porteFolioItem.scss" afterPath="$PROJECT_DIR$/app/styles/porteFolioItem.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/portefolio.html" afterPath="$PROJECT_DIR$/app/views/portefolio.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../NodeServers/DannyThibaudeau/server.js" afterPath="$PROJECT_DIR$/../../NodeServers/DannyThibaudeau/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../NodeServers/DannyThibaudeau/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../NodeServers/DannyThibaudeau/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DannyThibaudeau.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,71 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="porteFolioItem.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/porteFolioItem.scss">
+      <file leaf-file-name="globalMenu.coffee" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/directives/globalMenu.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-33.333332" vertical-offset="355" max-vertical-offset="1320">
-              <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="globalMenu.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/globalMenu.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="630">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="globalContent.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/globalContent.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="porteFolioItem.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/directives/porteFolioItem.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="330">
-              <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="porteFolioItem.coffee" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/scripts/directives/porteFolioItem.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7431749" vertical-offset="0" max-vertical-offset="1140">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1470">
-              <caret line="16" column="102" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="102" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="1575">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.5081967" vertical-offset="0" max-vertical-offset="976">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,7 +66,6 @@
         <option value="$PROJECT_DIR$/app/views/about.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/portefolio.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/portefolio.coffee" />
-        <option value="$PROJECT_DIR$/app/scripts/directives/globalMenu.coffee" />
         <option value="$PROJECT_DIR$/app/directives/globalMenuItem.html" />
         <option value="$PROJECT_DIR$/app/directives/globalHeader.html" />
         <option value="$PROJECT_DIR$/app/scripts/directives/globalHeader.coffee" />
@@ -136,13 +78,14 @@
         <option value="$PROJECT_DIR$/app/styles/porteFolio.scss" />
         <option value="$PROJECT_DIR$/app/fragments/NyxLibDescription.html" />
         <option value="$PROJECT_DIR$/app/fragments/NyxTraceViewerDescription.html" />
-        <option value="$PROJECT_DIR$/app/views/portefolio.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/styles/globalMenu.scss" />
-        <option value="$PROJECT_DIR$/app/directives/porteFolioItem.html" />
-        <option value="$PROJECT_DIR$/app/styles/porteFolioItem.scss" />
         <option value="$PROJECT_DIR$/app/styles/globalContent.scss" />
+        <option value="$PROJECT_DIR$/app/styles/porteFolioItem.scss" />
+        <option value="$PROJECT_DIR$/app/views/portefolio.html" />
         <option value="$PROJECT_DIR$/app/scripts/directives/porteFolioItem.coffee" />
+        <option value="$PROJECT_DIR$/app/directives/porteFolioItem.html" />
+        <option value="$PROJECT_DIR$/app/styles/globalMenu.scss" />
+        <option value="$PROJECT_DIR$/app/scripts/directives/globalMenu.coffee" />
       </list>
     </option>
   </component>
@@ -158,10 +101,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="880" />
-    <option name="y" value="117" />
-    <option name="width" value="1577" />
-    <option name="height" value="1132" />
+    <option name="x" value="698" />
+    <option name="y" value="173" />
+    <option name="width" value="1426" />
+    <option name="height" value="1119" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -378,7 +321,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../aspx/PorteFolio/PorteFolio" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="editor.preferences.tabs" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -444,7 +387,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="880" y="117" width="1577" height="1132" extended-state="0" />
+    <frame x="698" y="173" width="1426" height="1119" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -458,7 +401,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31074917" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29552025" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938856" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938856" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -688,14 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/globalMenu.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/directives/globalMenuItem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="105">
@@ -720,14 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/globalMenuItem.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38032454" vertical-offset="0" max-vertical-offset="986">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/globalHeader.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="825">
@@ -748,14 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
           <caret line="28" column="8" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/portefolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="315">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -794,39 +713,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1470">
+        <state vertical-scroll-proportion="0.25210086" vertical-offset="0" max-vertical-offset="1470">
           <caret line="16" column="102" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/porteFolioItem.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-33.333332" vertical-offset="355" max-vertical-offset="1320">
-          <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/globalMenu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="630">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/directives/porteFolioItem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="330">
-          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="1575">
+        <state vertical-scroll-proportion="0.29533678" vertical-offset="0" max-vertical-offset="1575">
           <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding />
         </state>
@@ -840,10 +735,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/porteFolioItem.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.375" vertical-offset="105" max-vertical-offset="1395">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portefolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24870466" vertical-offset="0" max-vertical-offset="965">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/porteFolioItem.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7431749" vertical-offset="0" max-vertical-offset="1140">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/directives/porteFolioItem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/globalMenuItem.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/globalMenu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-34.375" vertical-offset="0" max-vertical-offset="915">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/globalMenu.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5081967" vertical-offset="0" max-vertical-offset="976">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>

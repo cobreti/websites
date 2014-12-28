@@ -1,5 +1,5 @@
 angular.module('dannyThibaudeauApp')
-  .directive('porteFolioItem', ['$compile', '$window', ($compile, $window) ->
+  .directive('porteFolioItem', ['$compile', '$window', '$location', ($compile, $window, $location) ->
     scope: true
     restrict: 'EA'
     templateUrl: 'directives/porteFolioItem.html'
@@ -12,6 +12,7 @@ angular.module('dannyThibaudeauApp')
           @width = null
           $scope.title = @title
           $scope.img = $attr.img
+          $scope.href = $attr.href;
 
           $scope.updateLayout = () =>
             @updateLayout()
@@ -21,6 +22,9 @@ angular.module('dannyThibaudeauApp')
 
           $scope.bkgndImage = () =>
             @bkgndImage()
+
+          $scope.onTitleClicked = () =>
+            @onTitleClicked()
 
           angular.element($window).bind('resize', () =>
             @updateLayout()
@@ -65,6 +69,8 @@ angular.module('dannyThibaudeauApp')
 
           return style
 
+        onTitleClicked: () ->
+          $location.path($scope.href)
 
       return new PorteFolioItem()
   ])
