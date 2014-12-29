@@ -11,23 +11,19 @@
           GlobalMenu = (function() {
             function GlobalMenu() {
               this.globalMenuElm = $element.find('.global-menu');
-              $scope.$on('$routeChangeSuccess', (function(_this) {
-                return function() {
-                  if ($route.current.originalPath) {
-                    return _this.updateFollowingRouteChange($route.current);
-                  }
+              sectionsMgr.on('sectionActivated', (function(_this) {
+                return function(section) {
+                  return _this.setMenuPosition(section);
                 };
               })(this));
-              this.setMenuPosition();
+              this.setMenuPosition(sectionsMgr.getCurrentSection());
             }
 
             GlobalMenu.prototype.updateFollowingRouteChange = function(current) {
               return this.setMenuPosition();
             };
 
-            GlobalMenu.prototype.setMenuPosition = function() {
-              var section;
-              section = sectionsMgr.getCurrentSection();
+            GlobalMenu.prototype.setMenuPosition = function(section) {
               if (section != null) {
                 this.globalMenuElm.removeClass('global-menu-bottom');
                 return this.globalMenuElm.addClass('global-menu-top');

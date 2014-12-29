@@ -1,4 +1,3 @@
-@import url(porteFolioItem.css);
 .globalHeader {
   position: fixed;
   display: block;
@@ -8,7 +7,8 @@
   left: 0;
   background-color: #3D6399;
   cursor: default;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 100; }
   .globalHeader .header-font, .globalHeader .site-name, .globalHeader .sub-title, .globalHeader .route-path, .globalHeader .section-title {
     font-family: 'Quicksand', sans-serif;
     color: #E1E1E1; }
@@ -49,10 +49,18 @@
 .global-content {
   position: fixed;
   display: block;
-  top: 110px;
+  top: 100px;
   left: 10px;
   right: 10px;
-  bottom: 10px; }
+  bottom: 10px;
+  border: 4px solid green; }
+
+.global-content-default {
+  transition-duration: 0.25s; }
+
+.global-content-down {
+  top: 140px;
+  transition-duration: 0.25s; }
 
 .global-menu {
   position: absolute;
@@ -101,6 +109,126 @@
   height: 100%;
   overflow-x: hidden;
   overflow-y: auto; }
+
+.porte-folio-item {
+  position: relative;
+  display: block;
+  min-height: 100px;
+  left: 0;
+  right: 0;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-bottom: 40px; }
+  .porte-folio-item .porte-folio-item-separator {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 25%;
+    right: 25%;
+    height: 1px;
+    border-bottom: 1px dotted black; }
+  .porte-folio-item .porte-folio-item-title {
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 50px; }
+    .porte-folio-item .porte-folio-item-title .porte-folio-item-title-text {
+      position: relative;
+      display: block;
+      text-align: center;
+      max-width: 900px;
+      top: 10px;
+      font-family: 'Slabo 27px', serif;
+      font-size: 27px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      cursor: pointer; }
+    .porte-folio-item .porte-folio-item-title .porte-folio-item-title-text:hover {
+      text-shadow: 0 0 4px #FF7140; }
+  .porte-folio-item .porte-folio-item-content .porte-folio-item-image {
+    position: relative;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background-image: url("../images/InterviewManager.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .porte-folio-item .porte-folio-item-content .porte-folio-item-description {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Mandali', sans-serif;
+    font-size: 16px;
+    overflow: hidden; }
+
+.interview-manager .interview-manager-content {
+  position: absolute;
+  display: block;
+  top: 40px;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden; }
+  .interview-manager .interview-manager-content .interview-manager-content-overview {
+    position: relative;
+    display: block;
+    width: 100%;
+    top: 0;
+    left: 0; }
+
+.section-menu {
+  position: absolute;
+  display: block;
+  background-color: #707F94;
+  left: 0;
+  top: 60px;
+  width: 100%;
+  height: 40px;
+  border-radius: 0 0 20px 20px;
+  z-index: 50;
+  overflow: hidden; }
+  .section-menu .section-menu-item-font, .section-menu .section-menu-item {
+    font-family: 'Vesper Libre', serif;
+    color: #E1E1E1;
+    font-size: 16px; }
+  .section-menu .section-menu-item {
+    position: relative;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 75px;
+    margin-right: 75px;
+    cursor: pointer; }
+  .section-menu .section-menu-item:hover {
+    text-shadow: 0 0 4px #FF7140; }
+  .section-menu .section-menu-item-marker {
+    position: relative;
+    display: block;
+    width: 15px;
+    height: 15px;
+    box-shadow: 2px -2px 1px 1px #FF7140;
+    bottom: -8px;
+    left: 25px;
+    background-color: white;
+    transform: rotate(-45deg); }
+
+.section-menu-default {
+  transition-duration: 0.25s; }
+
+.section-menu-visible {
+  top: 100px;
+  transition-duration: 0.25s; }
 
 .browsehappy {
   margin: 0.2em 0;

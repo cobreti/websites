@@ -11,11 +11,8 @@
           GlobalHeader = (function() {
             function GlobalHeader() {
               this.sectionTitleElm = $element.find('.section-title');
-              $scope.$on('$routeChangeSuccess', (function(_this) {
-                return function() {
-                  var section;
-                  $scope.originalPath = $route.current.originalPath;
-                  section = sectionsMgr.getCurrentSection();
+              sectionsMgr.on('sectionActivated', (function(_this) {
+                return function(section) {
                   if (section != null) {
                     _this.sectionTitleElm.text(section.title);
                     _this.sectionTitleElm.removeClass('section-title-hidden');

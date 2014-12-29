@@ -12,10 +12,7 @@ angular.module('dannyThibaudeauApp')
 
             @sectionTitleElm = $element.find('.section-title')
 
-            $scope.$on('$routeChangeSuccess', () =>
-              $scope.originalPath = $route.current.originalPath
-
-              section = sectionsMgr.getCurrentSection()
+            sectionsMgr.on('sectionActivated', (section) =>
               if section?
                 @sectionTitleElm.text(section.title)
                 @sectionTitleElm.removeClass('section-title-hidden')

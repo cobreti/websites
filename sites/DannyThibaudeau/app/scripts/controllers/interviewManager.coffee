@@ -1,6 +1,6 @@
 angular.module('dannyThibaudeauApp')
-.controller('interviewManager', ['$scope', 'sectionsMgr',
-    ($scope, sectionsMgr) ->
+.controller('interviewManager', ['$scope', '$route', '$location', 'sectionsMgr',
+    ($scope, $route, $location, sectionsMgr) ->
 
       class InterviewManagerSection
         constructor: ->
@@ -9,6 +9,24 @@ angular.module('dannyThibaudeauApp')
 
           @section =
             title: 'Interview Manager'
+            menu: [
+              {
+                title: 'Overview'
+                href: 'overview'
+                selHandler: () => {}
+              }
+              {
+                title: 'Technologies'
+                href: 'technologies'
+                selHandler: () => {}
+              }
+              {
+                title: 'Download'
+                href: 'download'
+                selHandler: () => {}
+              }
+            ]
+
 
           sectionsMgr.setCurrentSection(@section)
 
@@ -16,6 +34,9 @@ angular.module('dannyThibaudeauApp')
             console.log('InterviewManager destroyed')
             sectionsMgr.setCurrentSection(null)
           )
+
+        onItemSelected: (idx) ->
+          console.log("page selected #{idx}")
 
       return new InterviewManagerSection();
   ])

@@ -1,0 +1,22 @@
+.interview-manager {
+
+  .interview-manager-content {
+    position: absolute;
+    display: block;
+    top: 40px;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+//    border: 1px dotted black;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    .interview-manager-content-overview {
+      position: relative;
+      display: block;
+      width: 100%;
+      top: 0;
+      left: 0;
+    }
+  }
+}

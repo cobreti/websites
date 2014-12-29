@@ -23,13 +23,14 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!--<global-header></global-header>-->
     <div global-header></div>
+    <div section-menu></div>
 
-    <div class="global-content">
-      <div ng-view>
-      </div>
-    </div>
+    <div global-content></div>
+    <!--<div ng-controller="contentController" class="global-content">-->
+      <!--<div ng-view>-->
+      <!--</div>-->
+    <!--</div>-->
 
 
     <!-- Add your site or application content here -->
@@ -84,6 +85,8 @@
         <script src="scripts/directives/globalMenu.js"></script>
         <script src="scripts/directives/globalMenuItem.js"></script>
         <script src="scripts/directives/porteFolioItem.js"></script>
+        <script src="scripts/directives/globalContent.js"></script>
+        <script src="scripts/directives/sectionMenu.js"></script>
 
         <script src="scripts/services/sectionsMgr.js"></script>
 

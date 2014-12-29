@@ -4,14 +4,26 @@
     '$route', '$location', function($route, $location) {
       var ActiveSection;
       ActiveSection = (function() {
-        function ActiveSection() {}
+        function ActiveSection() {
+          this._events = {
+            sectionActivated: [],
+            sectionDeactivated: []
+          };
+        }
 
         ActiveSection.prototype.setCurrentSection = function(section) {
-          return this._currentSection = section;
+          this._currentSection = section;
+          return this._events.sectionActivated.forEach(function(fct) {
+            return fct(section);
+          });
         };
 
         ActiveSection.prototype.getCurrentSection = function() {
           return this._currentSection;
+        };
+
+        ActiveSection.prototype.on = function(eventId, fct) {
+          return this._events[eventId].push(fct);
         };
 
         return ActiveSection;

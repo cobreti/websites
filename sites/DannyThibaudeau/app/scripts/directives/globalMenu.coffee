@@ -11,19 +11,18 @@ angular.module('dannyThibaudeauApp')
 
             @globalMenuElm = $element.find('.global-menu')
 
-            $scope.$on('$routeChangeSuccess', () =>
-              if $route.current.originalPath
-                @updateFollowingRouteChange($route.current)
+            sectionsMgr.on('sectionActivated', (section) =>
+              @setMenuPosition(section)
             )
 
-            @setMenuPosition()
+            @setMenuPosition(sectionsMgr.getCurrentSection())
 
           updateFollowingRouteChange: (current) ->
 
             @setMenuPosition()
 
-          setMenuPosition: () ->
-            section = sectionsMgr.getCurrentSection()
+          setMenuPosition: (section) ->
+#            section = sectionsMgr.getCurrentSection()
 
             if section?
               @globalMenuElm.removeClass('global-menu-bottom')

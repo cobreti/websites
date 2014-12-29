@@ -28,7 +28,7 @@ angular
         controller: 'Porte-folio'
       })
       .when('/porte-folio/InterviewManager', {
-        templateUrl: 'views/main.html',
+        templateUrl: 'views/interviewManager.html',
         controller: 'interviewManager'
       })
       .when('/about', {

@@ -2,23 +2,36 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/app/scripts/directives/globalContent.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/controllers/mainController.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/directives/globalHeader.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/controllers/contentController.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/controllers/portefolio.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/directives/globalMenuItem.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/controllers/sectionMenuController.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/directives/porteFolioItem.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/services/sectionsMgr.js" />
-        <item url="file://$PROJECT_DIR$/app/scripts/controllers/interviewManager.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/directives/sectionMenu.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/directives/globalMenu.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/controllers/interviewManager.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/scripts/controllers/mainController.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/controllers/contentController.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/controllers/sectionMenuController.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/controllers/mainController.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/directives/globalHeader.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/controllers/contentController.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/controllers/sectionMenuController.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/directives/porteFolioItem.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/directives/sectionMenu.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/directives/globalContent.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/controllers/portefolio.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/directives/globalMenuItem.js" />
-      <root url="file://$PROJECT_DIR$/app/scripts/directives/porteFolioItem.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/services/sectionsMgr.js" />
-      <root url="file://$PROJECT_DIR$/app/scripts/directives/globalMenu.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/controllers/interviewManager.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/directives/globalMenu.js" />
     </CLASSES>
     <SOURCES />
   </library>
