@@ -4,7 +4,6 @@ angular.module('dannyThibaudeauApp')
       restrict: 'EA'
       scope: true
       require: '^pages-control'
-#      transclude: true
       templateUrl: 'directives/pagesMenu.html'
       link: ($scope, $element, $attr, pagesControl) ->
 

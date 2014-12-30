@@ -1,37 +1,24 @@
 angular.module('dannyThibaudeauApp')
-.directive('pagesControl',
+.directive('pagesControl', [
   () ->
-    restrict: ''
+    restrict: 'EA'
     scope: true
-    transclude: true
     templateUrl: 'directives/pagesControl.html'
     controller: ($scope) ->
 
       class PageControl
         constructor: ->
-          console.log('page control created')
+          @_items = []
 
-          @_items = [
-            {
-              title: 'Overview'
-              href: 'overview'
-              selHandler: () => {}
-            }
-            {
-              title: 'Technologies'
-              href: 'technologies'
-              selHandler: () => {}
-            }
-            {
-              title: 'Download'
-              href: 'download'
-              selHandler: () => {}
-            }
-          ]
+          console.log('page control created')
+          console.log($scope.$parent.pages)
+
+          if $scope.$parent.pages?
+            @_items = $scope.$parent.pages
 
         getItems: () ->
           return @_items
 
 
       return new PageControl()
-)
+])

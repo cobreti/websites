@@ -7,6 +7,24 @@ angular.module('dannyThibaudeauApp')
           console.log($scope)
           console.log('interview manager section created')
 
+          $scope.pages = [
+            {
+              title: 'Overview'
+              href: 'overview'
+              selHandler: () => {}
+            }
+            {
+              title: 'Technologies'
+              href: 'technologies'
+              selHandler: () => {}
+            }
+            {
+              title: 'Download'
+              href: 'download'
+              selHandler: () => {}
+            }
+          ]
+
           @section =
             title: 'Interview Manager'
             menu: [

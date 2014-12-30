@@ -7,6 +7,33 @@
         function InterviewManagerSection() {
           console.log($scope);
           console.log('interview manager section created');
+          $scope.pages = [
+            {
+              title: 'Overview',
+              href: 'overview',
+              selHandler: (function(_this) {
+                return function() {
+                  return {};
+                };
+              })(this)
+            }, {
+              title: 'Technologies',
+              href: 'technologies',
+              selHandler: (function(_this) {
+                return function() {
+                  return {};
+                };
+              })(this)
+            }, {
+              title: 'Download',
+              href: 'download',
+              selHandler: (function(_this) {
+                return function() {
+                  return {};
+                };
+              })(this)
+            }
+          ];
           this.section = {
             title: 'Interview Manager',
             menu: [
