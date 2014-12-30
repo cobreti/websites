@@ -1,0 +1,6 @@
+<div class="pages-menu" ng-class="getClassName()">
+  <div ng-repeat="item in menuItems" class="pages-menu-item" ng-click="selectItem($index)">
+    {{item.title}}
+    <div class="pages-menu-item-marker" ng-show="isVisible($index)"></div>
+  </div>
+</div>

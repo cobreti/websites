@@ -1,0 +1,24 @@
+.pages-control {
+  .pages-menu-area {
+    position: absolute;
+    display: block;
+    background-color: #707F94;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 0 0 20px 20px;
+    z-index: 50;
+    overflow: hidden;
+  }
+
+  .pages-area {
+    position: absolute;
+    display: block;
+    top: 40px;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    border: 2px solid green;
+  }
+}

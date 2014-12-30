@@ -50,16 +50,16 @@
   position: fixed;
   display: block;
   top: 100px;
-  left: 10px;
-  right: 10px;
+  left: 0;
+  right: 0;
   bottom: 10px;
-  border: 4px solid green; }
+  overflow: hidden; }
 
 .global-content-default {
   transition-duration: 0.25s; }
 
 .global-content-down {
-  top: 140px;
+  top: 100px;
   transition-duration: 0.25s; }
 
 .global-menu {
@@ -175,9 +175,9 @@
 .interview-manager .interview-manager-content {
   position: absolute;
   display: block;
-  top: 40px;
-  left: 20px;
-  right: 20px;
+  top: 0;
+  left: 0;
+  right: 0;
   bottom: 0;
   overflow-y: auto;
   overflow-x: hidden; }
@@ -229,6 +229,57 @@
 .section-menu-visible {
   top: 100px;
   transition-duration: 0.25s; }
+
+.pages-menu .pages-menu-item-font, .pages-menu .pages-menu-item {
+  font-family: 'Vesper Libre', serif;
+  color: #E1E1E1;
+  font-size: 16px; }
+.pages-menu .pages-menu-item {
+  position: relative;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 75px;
+  margin-right: 75px;
+  cursor: pointer; }
+.pages-menu .pages-menu-item:hover {
+  text-shadow: 0 0 4px #FF7140; }
+.pages-menu .pages-menu-item-marker {
+  position: relative;
+  display: block;
+  width: 15px;
+  height: 15px;
+  box-shadow: 2px -2px 1px 1px #FF7140;
+  bottom: -8px;
+  left: 25px;
+  background-color: white;
+  transform: rotate(-45deg); }
+
+.pages-menu-default {
+  transition-duration: 0.25s; }
+
+.pages-menu-visible {
+  top: 0;
+  transition-duration: 0.25s; }
+
+.pages-control .pages-menu-area {
+  position: absolute;
+  display: block;
+  background-color: #707F94;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 0 0 20px 20px;
+  z-index: 50;
+  overflow: hidden; }
+.pages-control .pages-area {
+  position: absolute;
+  display: block;
+  top: 40px;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border: 2px solid green; }
 
 .browsehappy {
   margin: 0.2em 0;

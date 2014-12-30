@@ -2,10 +2,10 @@
   position: fixed;
   display: block;
   top: 100px;
-  left: 10px;
-  right: 10px;
+  left: 0;
+  right: 0;
   bottom: 10px;
-  border: 4px solid green;
+  overflow: hidden;
 }
 
 .global-content-default {
@@ -13,6 +13,6 @@
 }
 
 .global-content-down {
-  top: 140px;
+  top: 100px;
   transition-duration: 0.25s;
 }
