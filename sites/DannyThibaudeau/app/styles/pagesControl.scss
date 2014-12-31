@@ -19,6 +19,8 @@
     left: 20px;
     right: 20px;
     bottom: 0;
-    border: 2px solid green;
+//    border: 2px solid green;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 }

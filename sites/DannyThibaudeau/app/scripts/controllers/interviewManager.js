@@ -10,60 +10,15 @@
           $scope.pages = [
             {
               title: 'Overview',
-              href: 'overview',
-              selHandler: (function(_this) {
-                return function() {
-                  return {};
-                };
-              })(this)
+              url: 'fragments/interviewManager/overview.html'
             }, {
               title: 'Technologies',
-              href: 'technologies',
-              selHandler: (function(_this) {
-                return function() {
-                  return {};
-                };
-              })(this)
+              url: 'fragments/interviewManager/technologies.html'
             }, {
               title: 'Download',
-              href: 'download',
-              selHandler: (function(_this) {
-                return function() {
-                  return {};
-                };
-              })(this)
+              url: 'fragments/interviewManager/download.html'
             }
           ];
-          this.section = {
-            title: 'Interview Manager',
-            menu: [
-              {
-                title: 'Overview',
-                href: 'overview',
-                selHandler: (function(_this) {
-                  return function() {
-                    return {};
-                  };
-                })(this)
-              }, {
-                title: 'Technologies',
-                href: 'technologies',
-                selHandler: (function(_this) {
-                  return function() {
-                    return {};
-                  };
-                })(this)
-              }, {
-                title: 'Download',
-                href: 'download',
-                selHandler: (function(_this) {
-                  return function() {
-                    return {};
-                  };
-                })(this)
-              }
-            ]
-          };
           sectionsMgr.setCurrentSection(this.section);
           $scope.$on('$destroy', (function(_this) {
             return function() {
@@ -74,7 +29,8 @@
         }
 
         InterviewManagerSection.prototype.onItemSelected = function(idx) {
-          return console.log("page selected " + idx);
+          console.log("page selected " + idx);
+          return $scope.currentPage = $scope.pages[idx];
         };
 
         return InterviewManagerSection;

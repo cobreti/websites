@@ -1,6 +1,6 @@
 angular.module('dannyThibaudeauApp')
-.directive('pagesControl', [
-  () ->
+.directive('pagesControl', [ '$compile',
+  ($compile) ->
     restrict: 'EA'
     scope: true
     templateUrl: 'directives/pagesControl.html'
@@ -8,16 +8,22 @@ angular.module('dannyThibaudeauApp')
 
       class PageControl
         constructor: ->
-          @_items = []
+#          @_items = []
 
           console.log('page control created')
           console.log($scope.$parent.pages)
 
-          if $scope.$parent.pages?
-            @_items = $scope.$parent.pages
+          @setActivePage(0)
 
-        getItems: () ->
-          return @_items
+          if $scope.$parent.pages?
+#            @_items = $scope.$parent.pages
+            $scope.pages = $scope.$parent.pages
+
+#        getItems: () ->
+#          return @_items
+
+        setActivePage: (index) ->
+          $scope.activePage = $scope.pages[index]
 
 
       return new PageControl()

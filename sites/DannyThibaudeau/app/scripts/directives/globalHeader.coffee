@@ -22,6 +22,10 @@ angular.module('dannyThibaudeauApp')
                 @sectionTitleElm.addClass('section-title-hidden')
             )
 
+            $scope.$on('$routeChangeSuccess', () =>
+              $scope.originalPath = $route.current.originalPath
+            )
+
             $scope.originalPath = $route.current.originalPath
 
             $scope.goHome = () =>

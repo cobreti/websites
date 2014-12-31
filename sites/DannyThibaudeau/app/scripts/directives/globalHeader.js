@@ -23,6 +23,11 @@
                   }
                 };
               })(this));
+              $scope.$on('$routeChangeSuccess', (function(_this) {
+                return function() {
+                  return $scope.originalPath = $route.current.originalPath;
+                };
+              })(this));
               $scope.originalPath = $route.current.originalPath;
               $scope.goHome = (function(_this) {
                 return function() {

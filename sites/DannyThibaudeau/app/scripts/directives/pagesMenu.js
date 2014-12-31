@@ -25,10 +25,10 @@
               $scope.selectItem = (function(_this) {
                 return function(index) {
                   $scope.selectedItem = index;
-                  return $scope.menuItems[index].selHandler();
+                  return pagesControl.setActivePage(index);
                 };
               })(this);
-              $scope.menuItems = pagesControl.getItems();
+              $scope.menuItems = $scope.$parent.pages;
               $scope.selectedItem = 0;
             }
 

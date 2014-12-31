@@ -237,7 +237,8 @@
   left: 20px;
   right: 20px;
   bottom: 0;
-  border: 2px solid green; }
+  overflow-y: auto;
+  overflow-x: hidden; }
 
 .browsehappy {
   margin: 0.2em 0;

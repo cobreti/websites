@@ -18,9 +18,9 @@ angular.module('dannyThibaudeauApp')
 
             $scope.selectItem = (index) =>
               $scope.selectedItem = index
-              $scope.menuItems[index].selHandler()
+              pagesControl.setActivePage(index)
 
-            $scope.menuItems = pagesControl.getItems()
+            $scope.menuItems = $scope.$parent.pages
             $scope.selectedItem = 0
 
           getClassName: () ->

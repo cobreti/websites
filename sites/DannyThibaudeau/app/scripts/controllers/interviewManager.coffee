@@ -10,41 +10,17 @@ angular.module('dannyThibaudeauApp')
           $scope.pages = [
             {
               title: 'Overview'
-              href: 'overview'
-              selHandler: () => {}
+              url: 'fragments/interviewManager/overview.html'
             }
             {
               title: 'Technologies'
-              href: 'technologies'
-              selHandler: () => {}
+              url: 'fragments/interviewManager/technologies.html'
             }
             {
               title: 'Download'
-              href: 'download'
-              selHandler: () => {}
+              url: 'fragments/interviewManager/download.html'
             }
           ]
-
-          @section =
-            title: 'Interview Manager'
-            menu: [
-              {
-                title: 'Overview'
-                href: 'overview'
-                selHandler: () => {}
-              }
-              {
-                title: 'Technologies'
-                href: 'technologies'
-                selHandler: () => {}
-              }
-              {
-                title: 'Download'
-                href: 'download'
-                selHandler: () => {}
-              }
-            ]
-
 
           sectionsMgr.setCurrentSection(@section)
 
@@ -55,6 +31,7 @@ angular.module('dannyThibaudeauApp')
 
         onItemSelected: (idx) ->
           console.log("page selected #{idx}")
+          $scope.currentPage = $scope.pages[idx]
 
       return new InterviewManagerSection();
   ])
