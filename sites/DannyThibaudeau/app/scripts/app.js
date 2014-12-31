@@ -31,6 +31,10 @@ angular
         templateUrl: 'views/interviewManager.html',
         controller: 'interviewManager'
       })
+      .when('/porte-folio/NyxTraceViewer', {
+        templateUrl: 'views/nyxTraceViewer.html',
+        controller: 'nyxTraceViewer'
+      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'

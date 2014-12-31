@@ -1,0 +1,52 @@
+/* line 2, ../sass/download.scss */
+.download-platform {
+  position: relative;
+  margin-left: 1em;
+  margin-top: 2em;
+}
+/* line 7, ../sass/download.scss */
+.download-platform .download-item {
+  float: left;
+  clear: right;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  background: #dee0e1;
+  border-radius: 10px;
+  position: relative;
+  padding: 3em;
+  padding-bottom: 0em;
+  padding-top: 1em;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.6);
+}
+/* line 21, ../sass/download.scss */
+.download-platform .download-item .download-item-title {
+  font: 18px arial;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 29, ../sass/download.scss */
+.download-platform .download-item .download-item-content {
+  text-align: left;
+}
+/* line 33, ../sass/download.scss */
+.download-platform .download-item .download-item-content ul {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+/* line 37, ../sass/download.scss */
+.download-platform .download-item .download-item-content ul li {
+  padding-left: 0px;
+  margin-left: 0px;
+  line-height: 2em;
+  list-style: none;
+}
+/* line 45, ../sass/download.scss */
+.download-platform .download-item .download-item-content .notes-title {
+  font-weight: bold;
+}
+/* line 49, ../sass/download.scss */
+.download-platform .download-item .download-item-content .notes-content {
+  font-style: italic;
+  margin-left: 1em;
+  margin-right: 1em;
+}

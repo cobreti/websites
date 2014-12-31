@@ -1,11 +1,11 @@
 angular.module('dannyThibaudeauApp')
-.controller('interviewManager', ['$scope', '$route', '$location', 'sectionsMgr',
+.controller('nyxTraceViewer', ['$scope', '$route', '$location', 'sectionsMgr',
     ($scope, $route, $location, sectionsMgr) ->
 
       class InterviewManagerSection
         constructor: ->
           console.log($scope)
-          console.log('interview manager section created')
+          console.log('nyxTraceViewer manager section created')
 
           @section =
             title: 'Interview Manager'
@@ -13,22 +13,22 @@ angular.module('dannyThibaudeauApp')
           $scope.pages = [
             {
               title: 'Overview'
-              url: 'fragments/interviewManager/overview.html'
+              url: 'fragments/NyxTraceViewer/overview.html'
             }
             {
               title: 'Technologies'
-              url: 'fragments/interviewManager/technologies.html'
+              url: 'fragments/NyxTraceViewer/technologies.html'
             }
             {
               title: 'Download'
-              url: 'fragments/interviewManager/download.html'
+              url: 'fragments/NyxTraceViewer/download.html'
             }
           ]
 
           sectionsMgr.setCurrentSection(@section)
 
           $scope.$on('$destroy', () =>
-            console.log('InterviewManager destroyed')
+            console.log('nyxTraceViewer destroyed')
             sectionsMgr.setCurrentSection(null)
           )
 
