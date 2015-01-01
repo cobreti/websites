@@ -3,9 +3,10 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/app/scripts/directives/globalHeader.js" />
-        <item url="file://$PROJECT_DIR$/app/scripts/directives/porteFolioItem.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/controllers/nyxTraceViewer.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/directives/porteFolioItem.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/directives/pagesControl.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/controllers/nyxLib.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/directives/pagesMenu.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/directives/globalContent.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/controllers/portefolio.js" />
@@ -13,8 +14,8 @@
         <item url="file://$PROJECT_DIR$/app/scripts/directives/pagesContainer.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/directives/page.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/services/sectionsMgr.js" />
-        <item url="file://$PROJECT_DIR$/app/scripts/controllers/interviewManager.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/directives/globalMenu.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/controllers/interviewManager.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -27,18 +28,19 @@
       <root url="file://$PROJECT_DIR$/app/scripts/directives/sectionMenu.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/directives/sectionMenu.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/directives/globalHeader.js" />
-      <root url="file://$PROJECT_DIR$/app/scripts/controllers/nyxTraceViewer.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/directives/porteFolioItem.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/controllers/nyxTraceViewer.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/directives/pagesControl.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/directives/pagesMenu.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/controllers/nyxLib.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/directives/globalContent.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/controllers/portefolio.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/directives/globalMenuItem.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/directives/pagesContainer.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/directives/page.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/services/sectionsMgr.js" />
-      <root url="file://$PROJECT_DIR$/app/scripts/directives/globalMenu.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/controllers/interviewManager.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/directives/globalMenu.js" />
     </CLASSES>
     <SOURCES />
   </library>

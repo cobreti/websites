@@ -35,6 +35,10 @@ angular
         templateUrl: 'views/nyxTraceViewer.html',
         controller: 'nyxTraceViewer'
       })
+      .when('/porte-folio/NyxLib', {
+        templateUrl: 'views/nyxLib.html',
+        controller: 'nyxLib'
+      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
