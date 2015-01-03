@@ -9,8 +9,7 @@ angular.module('dannyThibaudeauApp')
         class Downloads
           constructor: ->
 
-            @cdsApi = new cdsApi();
-            @cdsApi.getDownloads('InterviewManager', 'Windows').then( (data) =>
+            $.get( 'http://www.cds.porte-folio.danny-thibaudeau.ca/Services/ResInfo/InterviewManager/Windows', (data) =>
               console.log(data)
             )
 

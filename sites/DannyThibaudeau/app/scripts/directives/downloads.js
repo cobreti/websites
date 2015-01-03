@@ -11,8 +11,7 @@
         var Downloads;
         Downloads = (function() {
           function Downloads() {
-            this.cdsApi = new cdsApi();
-            this.cdsApi.getDownloads('InterviewManager', 'Windows').then((function(_this) {
+            $.get('http://www.cds.porte-folio.danny-thibaudeau.ca/Services/ResInfo/InterviewManager/Windows', (function(_this) {
               return function(data) {
                 return console.log(data);
               };
