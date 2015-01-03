@@ -4,17 +4,12 @@
     <list default="true" id="65b639d0-78f3-412e-ab8d-95ea0b1ac20a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../NodeServers/DannyThibaudeau/.idea/DannyThibaudeau.iml" afterPath="$PROJECT_DIR$/../../NodeServers/DannyThibaudeau/.idea/DannyThibaudeau.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/directives/globalHeader.html" afterPath="$PROJECT_DIR$/app/directives/globalHeader.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fragments/interviewManager/download.html" afterPath="$PROJECT_DIR$/app/fragments/interviewManager/download.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/interviewManager.coffee" afterPath="$PROJECT_DIR$/app/scripts/controllers/interviewManager.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/interviewManager.js.map" afterPath="$PROJECT_DIR$/app/scripts/controllers/interviewManager.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/interviewManager.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/interviewManager.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../NodeServers/DannyThibaudeau/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/../../NodeServers/DannyThibaudeau/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/nyxTraceViewer.coffee" afterPath="$PROJECT_DIR$/app/scripts/controllers/nyxTraceViewer.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/nyxTraceViewer.js.map" afterPath="$PROJECT_DIR$/app/scripts/controllers/nyxTraceViewer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/nyxTraceViewer.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/nyxTraceViewer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/portefolio.html" afterPath="$PROJECT_DIR$/app/views/portefolio.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../NodeServers/DannyThibaudeau/server.js" afterPath="$PROJECT_DIR$/../../NodeServers/DannyThibaudeau/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../NodeServers/DannyThibaudeau/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../NodeServers/DannyThibaudeau/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -43,11 +38,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="globalHeader.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/directives/globalHeader.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1388889" vertical-offset="0" max-vertical-offset="864">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="-2.5" vertical-offset="525" max-vertical-offset="1680">
+              <caret line="39" column="83" selection-start-line="39" selection-start-column="83" selection-end-line="39" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="downloads.coffee" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/directives/downloads.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.30405405" vertical-offset="0" max-vertical-offset="888">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="downloads.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/directives/downloads.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="135">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interviewManager.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/interviewManager.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+              <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="download.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/fragments/interviewManager/download.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="495">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,8 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/scripts/directives/porteFolioItem.coffee" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/sectionMenuController.coffee" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/mainController.coffee" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/contentController.coffee" />
         <option value="$PROJECT_DIR$/app/scripts/services/sectionsMgr.coffee" />
@@ -92,7 +125,6 @@
         <option value="$PROJECT_DIR$/app/directives/page.html" />
         <option value="$PROJECT_DIR$/app/scripts/directives/page.coffee" />
         <option value="$PROJECT_DIR$/app/fragments/interviewManager/overview.html" />
-        <option value="$PROJECT_DIR$/app/fragments/interviewManager/download.html" />
         <option value="$PROJECT_DIR$/app/fragments/interviewManager/technologies.html" />
         <option value="$PROJECT_DIR$/app/styles/pagesControl.scss" />
         <option value="$PROJECT_DIR$/app/fragments/interviewManager/styles/technologies.css" />
@@ -104,14 +136,17 @@
         <option value="$PROJECT_DIR$/app/fragments/NyxTraceViewer/technologies.html" />
         <option value="$PROJECT_DIR$/app/fragments/NyxTraceViewer/download.html" />
         <option value="$PROJECT_DIR$/app/fragments/NyxTraceViewer/styles/download.css" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/interviewManager.coffee" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/nyxTraceViewer.coffee" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/nyxLib.coffee" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/views/portefolio.html" />
         <option value="$PROJECT_DIR$/app/views/nyxLib.html" />
         <option value="$PROJECT_DIR$/app/directives/globalHeader.html" />
+        <option value="$PROJECT_DIR$/app/directives/downloads.html" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/interviewManager.coffee" />
+        <option value="$PROJECT_DIR$/app/fragments/interviewManager/download.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/scripts/directives/downloads.coffee" />
       </list>
     </option>
   </component>
@@ -127,8 +162,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="660" />
-    <option name="y" value="229" />
+    <option name="x" value="738" />
+    <option name="y" value="282" />
     <option name="width" value="1590" />
     <option name="height" value="1029" />
   </component>
@@ -287,7 +322,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
+              <option name="myItemId" value="directives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,6 +345,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DannyThibaudeau" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DannyThibaudeau" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DannyThibaudeau" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DannyThibaudeau" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interviewManager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,7 +487,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="660" y="229" width="1590" height="1029" extended-state="0" />
+    <frame x="738" y="282" width="1590" height="1029" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -452,22 +527,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/styles/globalHeader.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="1215">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/globalMenu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.061919503" vertical-offset="0" max-vertical-offset="969">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/directives/globalMenuItem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="105">
@@ -611,14 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/fragments/interviewManager/download.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
-          <caret line="0" column="71" selection-start-line="0" selection-start-column="71" selection-end-line="0" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/pagesControl.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39930555" vertical-offset="0" max-vertical-offset="864">
@@ -631,14 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27027026" vertical-offset="0" max-vertical-offset="888">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/interviewManager.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -787,14 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/interviewManager.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <caret line="25" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/nyxTraceViewer.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
@@ -807,14 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.111633375" vertical-offset="745" max-vertical-offset="1635">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -847,9 +874,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.052083332" vertical-offset="0" max-vertical-offset="864">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -857,6 +882,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1388889" vertical-offset="0" max-vertical-offset="864">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/interviewManager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06944445" vertical-offset="0" max-vertical-offset="864">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/directives/downloads.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="135">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/fragments/interviewManager/download.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="495">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/interviewManager.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="525" max-vertical-offset="1680">
+          <caret line="39" column="83" selection-start-line="39" selection-start-column="83" selection-end-line="39" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/downloads.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30405405" vertical-offset="0" max-vertical-offset="888">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

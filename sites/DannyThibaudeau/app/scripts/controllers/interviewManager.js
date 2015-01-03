@@ -17,6 +17,9 @@
             }, {
               title: 'Technologies',
               url: 'fragments/interviewManager/technologies.html'
+            }, {
+              title: 'Download',
+              url: 'fragments/interviewManager/download.html'
             }
           ];
           sectionsMgr.setCurrentSection(this.section);
