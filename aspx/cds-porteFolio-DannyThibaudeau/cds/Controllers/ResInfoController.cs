@@ -10,8 +10,6 @@ namespace cds.Controllers
 {
     public class ResInfoController : ApiController
     {
-        //private string _basePath = "E:/dev/websites/aspx/cds-porteFolio-DannyThibaudeau/cds/Files";
-
         public IDictionary<string, object> Get(string item, string platform)
         {
             var filesList = new List<object>();
@@ -54,11 +52,23 @@ namespace cds.Controllers
             var description = File.ReadAllLines(path + "/desc.txt");
             var version = File.ReadAllLines(path + "/version.txt");
             var files = Directory.EnumerateFiles(path + "/file");
+            string file = "";
+            FileInfo fi = null;
 
             res.Add("description", description);
             res.Add("version", version.First());
 
-            var fi = new FileInfo(files.First());
+            foreach (var f in files)
+            {
+                fi = new FileInfo(f);
+                if (fi.Name.Substring(0, 1) != ".") // ignore settings files like ".gitignore"
+                {
+                    file = f;
+                    break;
+                }
+            }
+
+            fi = new FileInfo(file);
 
             res.Add("file", entry + "/" + fi.Name);
 
