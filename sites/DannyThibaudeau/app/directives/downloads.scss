@@ -1,0 +1,42 @@
+.downloads {
+
+  display: block;
+  position: relative;
+  margin-left: 2em;
+  margin-right: 2em;
+  left: 0;
+  right: 0;
+  min-height: 4em;
+
+  .download-item {
+    position: relative;
+    display: block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    .download-platform {
+      margin-right: 3em;
+      position: relative;
+      display: inline-block;
+      font-size: 24pt;
+      min-width: 10em;
+    }
+
+    .download-link {
+      position: relative;
+      display: inline-block;
+      font-size: 20px;
+    }
+
+    .download-item-separator {
+      margin-top: 1em;
+      position: relative;
+      display: block;
+      margin-left: 5em;
+//      margin-right: 25%;
+      width: 50%;
+      height: 2px;
+      border-bottom: 1px dotted black;
+    }
+  }
+}

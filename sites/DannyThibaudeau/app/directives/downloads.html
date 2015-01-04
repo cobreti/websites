@@ -1,3 +1,8 @@
-<div>
-
+<link rel="stylesheet" href="directives/downloads.css" />
+<div class="downloads">
+  <div class="download-item" ng-repeat="item in items">
+    <div class="download-platform">{{item.platform}}</div>
+    <a class="download-link" href="{{item.href}}">v{{item.version}}</a>
+    <div class="download-item-separator"></div>
+  </div>
 </div>

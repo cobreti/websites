@@ -2,26 +2,31 @@
 (function() {
   angular.module('dannyThibaudeauApp').directive('downloads', [
     function() {
-      ({
+      return {
         restrict: 'EA',
-        scope: true,
-        templateUrl: ''
-      });
-      return function($scope, $element, $attr) {
-        var Downloads;
-        Downloads = (function() {
-          function Downloads() {
-            $.get('http://www.cds.porte-folio.danny-thibaudeau.ca/Services/ResInfo/InterviewManager/Windows', (function(_this) {
-              return function(data) {
-                return console.log(data);
-              };
-            })(this));
-          }
+        scope: {},
+        templateUrl: 'directives/downloads.html',
+        link: function($scope, $element, $attr) {
+          var Downloads;
+          Downloads = (function() {
+            function Downloads() {
+              $.get("http://www.cds.porte-folio.danny-thibaudeau.ca/Services/ResInfo/" + $attr.item + "/" + $attr.platform).then((function(_this) {
+                return function(data) {
+                  console.log(data);
+                  $scope.items = data.files;
+                  return $scope.items.forEach(function(item) {
+                    item.platform = $attr.platform;
+                    return item.href = "http://www.cds.porte-folio.danny-thibaudeau.ca/Resources/" + item.file;
+                  });
+                };
+              })(this));
+            }
 
-          return Downloads;
+            return Downloads;
 
-        })();
-        return new Downloads();
+          })();
+          return new Downloads();
+        }
       };
     }
   ]);

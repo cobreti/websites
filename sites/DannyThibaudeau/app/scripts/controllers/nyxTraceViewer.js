@@ -17,6 +17,9 @@
             }, {
               title: 'Technologies',
               url: 'fragments/NyxTraceViewer/technologies.html'
+            }, {
+              title: 'Download',
+              url: 'fragments/NyxTraceViewer/download.html'
             }
           ];
           sectionsMgr.setCurrentSection(this.section);
