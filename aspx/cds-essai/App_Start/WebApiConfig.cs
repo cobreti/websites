@@ -30,6 +30,11 @@ namespace cds_essai
                 routeTemplate: "services/files/{module}/{*path}",
                 defaults: new { controller = "Files", module = RouteParameter.Optional, path = RouteParameter.Optional });
 
+            config.Routes.MapHttpRoute(
+                name: "File",
+                routeTemplate: "services/file/{module}/{*path}",
+                defaults: new { controller = "File", module = RouteParameter.Optional, path = RouteParameter.Optional });
+
             config.Formatters.Clear();
             config.Formatters.Add(new JsonMediaTypeFormatter());
         }
