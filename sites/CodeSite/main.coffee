@@ -12,12 +12,19 @@ $(document).ready( () ->
         )
 
     if args.file?
+        file = args.file.replace('.', '/')
         $.get(
-            args.file,
+            "http://www.cds.essai.danny-thibaudeau.ca/services/file/#{file}",
             (data) ->
                 $("#code").text(data)
                 SyntaxHighlighter.highlight( $("#code") );
         )
+#        $.get(
+#            args.file,
+#            (data) ->
+#                $("#code").text(data)
+#                SyntaxHighlighter.highlight( $("#code") );
+#        )
 )
 
 
