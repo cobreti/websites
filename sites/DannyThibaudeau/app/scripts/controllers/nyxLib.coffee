@@ -2,10 +2,12 @@ angular.module('dannyThibaudeauApp')
 .controller('nyxLib', ['$scope', '$route', '$location', 'sectionsMgr',
     ($scope, $route, $location, sectionsMgr) ->
 
-      class InterviewManagerSection
+      class NyxLibSection
         constructor: ->
           console.log($scope)
           console.log('nyxLib manager section created')
+
+          $scope.nyxdocUrl = 'http://' + $location.host() + ':' + $location.port() + '/nyxdoc'
 
           @section =
             title: 'Nyx Libraries'
@@ -17,5 +19,5 @@ angular.module('dannyThibaudeauApp')
             sectionsMgr.setCurrentSection(null)
           )
 
-      return new InterviewManagerSection();
+      return new NyxLibSection();
   ])

@@ -3,20 +3,20 @@ var http = require('http');
 var fs = require('fs');
 var app = express();
 
-app.configure( 'all', function() {
-
-    app.use( function(req, res, next) {
-       console.log('%s %s', req.method, req.url);
-        next();
-    });
-
-    app.use(
-        "/",
-        express.static("../../sites/DannyThibaudeau/app")
-    );
-
-//    app.use( "/NyxTraceViewer", express.static("/sites/NyxTraceViewer/home.html") );
+app.use( function(req, res, next) {
+   console.log('%s %s', req.method, req.url);
+    next();
 });
+
+app.use(
+    "/",
+    express.static("../../sites/DannyThibaudeau/app")
+);
+
+app.use(
+    "/NyxDoc/",
+    express.static("../../sites/Nyx/doc")
+);
 
 var http_server = http.createServer(app);
 

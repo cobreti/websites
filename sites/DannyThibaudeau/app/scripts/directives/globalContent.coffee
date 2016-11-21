@@ -2,7 +2,7 @@ angular.module('dannyThibaudeauApp')
 .directive('globalContent', ['sectionsMgr', (sectionsMgr) ->
     scope: true,
     restrict: 'EA'
-    templateUrl: '../../directives/globalContent.html'
+    templateUrl: 'directives/globalContent.html'
     link: ($scope, $element, $attr) ->
 
       class Content
