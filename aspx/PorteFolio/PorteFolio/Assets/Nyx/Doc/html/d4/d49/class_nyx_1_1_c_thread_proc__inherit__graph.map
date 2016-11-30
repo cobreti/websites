@@ -1,7 +1,0 @@
-<map id="Nyx::CThreadProc" name="Nyx::CThreadProc">
-<area shape="rect" id="node3" href="$d7/d1b/class_nyx_1_1_c_ref_count___impl.html" title="Nyx::CRefCount_Impl\l\&lt; Nyx::CThreadProc \&gt;" alt="" coords="139,155,293,197"/>
-<area shape="rect" id="node2" href="$d7/dca/class_nyx_1_1_c_object.html" title="Nyx::CObject" alt="" coords="166,5,265,32"/>
-<area shape="rect" id="node4" href="$d2/d46/class_nyx_1_1_c_object___impl.html" title="Nyx::CObject_Impl\&lt;\l Nyx::CThreadProc \&gt;" alt="" coords="143,246,289,287"/>
-<area shape="rect" id="node5" href="$d3/d6b/class_nyx_1_1_c_thread_delegate.html" title="Nyx::CThreadDelegate\&lt; C \&gt;" alt="" coords="5,336,195,363"/>
-<area shape="rect" id="node6" href="$dc/d82/class_nyx_1_1_c_thread_delegate_no_ref.html" title="Nyx::CThreadDelegateNoRef\&lt; C \&gt;" alt="" coords="219,336,447,363"/>
-</map>
