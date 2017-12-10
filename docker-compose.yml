@@ -4,6 +4,6 @@ services:
     build:
       context: .
       dockerfile: ./Docker/Dockerfile
-    image: cobreti/portefolio:1.0
+    image: cobreti/portefolio:latest
     ports:
-      - "8000:8000"
+      - "${PORTFOLIOPORT}:8000"
