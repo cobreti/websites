@@ -23,10 +23,10 @@ angular
   .config(function ($routeProvider) {
 
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-      })
+      // .when('/', {
+      //   templateUrl: 'views/main.html',
+      //   controller: 'MainCtrl'
+      // })
       .when('/porte-folio', {
         templateUrl: 'views/portefolio.html',
         controller: 'Porte-folio'
@@ -48,6 +48,6 @@ angular
         controller: 'AboutCtrl'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/porte-folio'
       });
   });
